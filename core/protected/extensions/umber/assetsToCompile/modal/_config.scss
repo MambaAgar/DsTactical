@@ -1,0 +1,205 @@
+@charset "utf-8";
+/**
+ * ==========================================================================
+ * Media queries
+ * ==========================================================================
+ */
+/**
+ * Break points
+ * ==========================================================================
+ */
+$break-mobile: 0px; // This is used in limited situations, generally styles layer-up, not down.
+$break-narrow-modal: 360px;
+$break-verysmall: 450px;
+$break-small: 640px;
+$break-medium: 720px;
+$break-cart-width: 840px;
+$break-large: 1025px;
+$break-verylarge: 1240px;
+
+
+@import 'compass';
+@import '../mixins/html5-input-types';
+
+/**
+ * Media queries set up
+ * ==========================================================================
+ */
+@mixin media($media) {
+  @if $media == 'mobile' {
+	@media (max-width: $break-small) { @content; }
+  }
+  @elseif $media == 'smallermobile' {
+    @media (max-width: $break-verysmall) { @content; }
+  }
+  @elseif $media == 'narrow-modal' {
+    @media (min-width: $break-narrow-modal) { @content; }
+  }
+  @else if $media == 'verysmall' {
+	@media (min-width: $break-verysmall)  { @content; }
+  }
+  @else if $media == 'small' {
+	@media (min-width: $break-small)  { @content; }
+  }
+  @else if $media == 'medium' {
+	@media (min-width: $break-medium) { @content; }
+  }
+  @else if $media == 'cartwidth' {
+	@media (min-width: $break-cart-width) { @content; }
+  }
+  @else if $media == 'large' {
+	@media (min-width: $break-large) { @content; }
+  }
+  @else if $media == 'short' {
+	@media (max-height: $break-short) { @content; }
+  }
+  @else {
+	@content;
+  }
+}
+
+.webstore-modal * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 0;
+}
+
+/**
+ * ==========================================================================
+ * Variables
+ * ==========================================================================
+ */
+/**
+ * Color palette
+ * ==========================================================================
+ */
+$blue: #3287CC;
+$blue-steel: #435261;
+
+$purple: #897897;
+$green: #589141;
+$green-pale: #DBEBD6;
+$pink: #CC89A6;
+$red: #A44039;
+$orange: #E27E38;
+$yellow: #F6B444;
+
+$light-grey-border: #ddd;
+$light-grey-text: #aaa;
+
+/**
+ * Fonts
+ * ==========================================================================
+ */
+$font-color: #000;
+
+/**
+ * Forms and inputs
+ * ==========================================================================
+ */
+$input-border:1px solid $light-grey-border;
+
+// Input outlines
+$input-shadow-color: #eee;
+$input-shadow-top: 1px;
+$input-shadow-left: 1px;
+$input-shadow-blur: 1px;
+$input-shadow-spread: 0;
+$input-shadow-inset: true;
+$input-shadow-color-focus: #8fbbe5;
+$input-shadow-top-focus: 0;
+$input-shadow-left-focus: 0;
+$input-shadow-blur-focus: 2px;
+$input-shadow-spread-focus: 2px;
+$input-shadow-inset-focus: true;
+
+/**
+ * Links
+ * ==========================================================================
+ */
+$link-color: $blue;
+$link-hover-color: darken($blue,10%);
+$link-active-color: darken($blue,20%);
+
+/**
+ * Error messages
+ * ==========================================================================
+ */
+$error-background: #FFF2F2;
+$error-color: #B4282E;
+$success-color: #ffffcc;
+
+
+
+.webstore-modal-overlay{
+  a {
+	color: $link-color;
+	text-decoration: none;
+
+	&:active { color: $link-active-color; }
+	&:hover {
+	  color: $link-hover-color;
+	  //MO boostrap override
+	  text-decoration: none;
+	}
+
+	&.hasborder {
+	  padding-bottom: 1px;
+	  border-bottom: $input-border !important;
+
+	  &:hover, &:active {
+		border-bottom-color: $blue;
+	  }
+	}
+  }
+
+}
+
+$modal-padding: 20px;
+
+$modal-width: 720px;
+$modal-width-narrow: 480px;
+
+$calltoaction-color: $blue;
+$confirmation-color: $green !default;
+
+$default-font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;;
+
+$webstore-modal-font: $default-font-family;
+$webstore-modal-header-font-weight: normal;
+$webstore-modal-header-font-family: $default-font-family;
+
+
+%clearfix {
+  &:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+}
+
+%remove-icon {
+  text-decoration: none;
+  display: block;
+  border: 2px solid #eee;
+  color: #ccc;
+  background-color: #fff;
+  @include border-radius(20px);
+  height: 28px;
+  width: 28px;
+  line-height: 22px;
+  padding-left: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+
+  @include transition-property(border-color, background-color,color);
+  @include transition-duration(.3s);
+
+  &:hover {
+	color: #fff;
+	border-color: $red;
+	background-color: $red;
+  }
+}

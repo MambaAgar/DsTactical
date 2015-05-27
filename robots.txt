@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: 52.11.144.119/sitemap.xml

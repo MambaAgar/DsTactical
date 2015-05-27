@@ -1,0 +1,267 @@
+/* line 15, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal {
+    visibility: hidden;
+    cursor: pointer;
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-perspective: 1300px;
+    -moz-perspective: 1300px;
+    -ms-perspective: 1300px;
+    -o-perspective: 1300px;
+    perspective: 1300px;
+    -webkit-transition-property: background-color;
+    -moz-transition-property: background-color;
+    -o-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s; }
+/* line 37, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+@media (min-width: 720px) {
+    /* line 44, /app/source/stylesheets/webstore/_basic_modal.scss */
+    .webstore-modal:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: -0.25em;
+        /* Adjusts for spacing */ } }
+/* line 53, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal.show {
+    visibility: visible;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* line 57, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal.show section {
+    visibility: visible;
+    -webkit-transform: translateY(0%) rotateX(0deg);
+    -moz-transform: translateY(0%) rotateX(0deg);
+    -ms-transform: translateY(0%) rotateX(0deg);
+    transform: translateY(0%) rotateX(0deg);
+    opacity: 1; }
+/* line 68, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal section {
+    z-index: 2000;
+    visibility: hidden;
+    max-width: 720px;
+    -webkit-transform: translateY(100%) rotateX(90deg);
+    -moz-transform: translateY(100%) rotateX(90deg);
+    -ms-transform: translateY(100%) rotateX(90deg);
+    -o-transform: translateY(100%) rotateX(90deg);
+    transform: translateY(100%) rotateX(90deg);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 0 100% 50%;
+    -moz-transform-origin: 0 100% 50%;
+    -ms-transform-origin: 0 100% 50%;
+    -o-transform-origin: 0 100% 50%;
+    transform-origin: 0 100% 50%;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 59px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    width: 100%; }
+@media (min-width: 560px) {
+    /* line 68, /app/source/stylesheets/webstore/_basic_modal.scss */
+    .webstore-modal section {
+        min-height: 0;
+        padding-bottom: 0; } }
+/* line 95, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal section:hover {
+    cursor: default; }
+/* line 98, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal article, .webstore-modal aside, .webstore-modal main, .webstore-modal form {
+    background-color: #fff; }
+/* line 99, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal form, .webstore-modal header {
+    padding: 20px 40px; }
+/* line 100, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal header {
+    padding: 10px 20px; }
+/* line 101, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal form {
+    padding: 0; }
+/* line 102, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal .breakaway {
+    margin-top: 20px; }
+/* line 206, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal h1 {
+    color: #777;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: .25rem 0; }
+/* line 213, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal h1 small {
+    float: right;
+    color: #aaa; }
+/* line 218, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal h2 {
+    font-size: 1.5rem;
+    margin: .5em 0 1em;
+    color: #555; }
+/* line 223, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal h4 {
+    text-transform: uppercase;
+    margin: 0 0 .75em;
+    font-weight: 400;
+    color: #888;
+    font-size: 1rem; }
+/* line 231, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal header {
+    background-color: #eee;
+    border-bottom: 1px solid #ccc; }
+/* line 236, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal table {
+    width: 100%; }
+/* line 239, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal table th, .webstore-modal table td {
+    font-size: 1rem; }
+/* line 365, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal .invisible {
+    visibility: hidden; }
+.webstore-modal footer.submit {
+    padding: 0;
+    background-color: #eee;
+    color: #999;
+    overflow: hidden; }
+/* line 385, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal footer.submit input[type="submit"] {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: none;
+    -webkit-transition-property: background-color;
+    -moz-transition-property: background-color;
+    -o-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    font-weight: 400;
+    padding: 20px;
+    background: #3287cc;
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 1.25rem;
+    float: left; }
+.webstore-modal label {
+    margin: 0 0 2px;
+    display: block;
+    color: #666; }
+@media (min-width: 560px) {
+    /* line 513, /app/source/stylesheets/webstore/_basic_modal.scss */
+    .webstore-modal-narrow:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: -0.25em;
+        /* Adjusts for spacing */ } }
+/* line 521, /app/source/stylesheets/webstore/_basic_modal.scss */
+.webstore-modal-narrow section {
+    max-width: 540px; }
+
+/* line 1, /app/source/stylesheets/webstore/_overlay.scss */
+.webstore-modal-overlay {
+    background: none;
+    padding: 0; }
+@media (min-width: 720px) {
+    /* line 7, /app/source/stylesheets/webstore/_overlay.scss */
+    .webstore-modal-overlay:before {
+        display: none; } }
+/* line 10, /app/source/stylesheets/webstore/_overlay.scss */
+.webstore-modal-overlay.show {
+    background-color: none; }
+/* line 12, /app/source/stylesheets/webstore/_overlay.scss */
+.webstore-modal-overlay header.webstore-modal-brand {
+    border-bottom: 1px solid #ccc;
+    background: #eee;
+    padding: 10px; }
+@media (min-width: 560px) {
+    /* line 12, /app/source/stylesheets/webstore/_overlay.scss */
+    .webstore-modal-overlay header.webstore-modal-brand {
+        padding: 10px 60px; } }
+/* line 19, /app/source/stylesheets/webstore/_overlay.scss */
+.webstore-modal-overlay header.webstore-modal-brand h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #666;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 1000px; }
+/* line 31, /app/source/stylesheets/webstore/_overlay.scss */
+.webstore-modal-overlay section {
+    height: 100%;
+    box-shadow: none;
+    display: inline-block;
+    max-width: 1000px;
+    margin: 0; }
+/* line 44, /app/source/stylesheets/webstore/_overlay.scss */
+.webstore-modal-overlay header {
+    padding: none;
+    background: none;
+    padding: 0 8px;
+    border: none; }
+@media (min-width: 560px) {
+    /* line 44, /app/source/stylesheets/webstore/_overlay.scss */
+    .webstore-modal-overlay header {
+        padding-right: 60px;
+        padding-left: 60px; } }
+@media (min-width: 560px) {
+    /* line 62, /app/source/stylesheets/webstore/_overlay.scss */
+    .webstore-modal-overlay main {
+        padding-right: 60px;
+        padding-left: 60px; } }
+
+/* line 48, /app/source/stylesheets/webstore.scss */
+main.verification {
+    padding: 1px 20px; }
+/* line 51, /app/source/stylesheets/webstore.scss */
+main.verification p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin-top: 20px;
+    color: #666; }
+/* line 56, /app/source/stylesheets/webstore.scss */
+main.verification strong {
+    color: #3287cc; }
+
+.overflowHidden {
+    overflow: hidden;
+}
+
+/* Required fix for glencoe */
+.webstore-modal footer.submit input[type="submit"] {
+    border-radius: 0;
+    margin: 0;
+}
+
+/* Required for bootstrap v2 (this is thed default on main elements in
+ * bootstrap v2), fixes IE10, IE11. */
+main.verification {
+    display: block;
+}
