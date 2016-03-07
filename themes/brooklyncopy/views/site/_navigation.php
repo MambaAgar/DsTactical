@@ -1,22 +1,27 @@
 <div id="menubar" class="row-fluid hidden-xs">
 
+
+	<?php 
+	$brandsmenu = $this->MenuTree['families_brands_menu'];
+	$brands = $brandsmenu['children'];
+	$products = $this->MenuTree;
+	array_pop($products);
+	?>
+	
 	<div class="span2">
 		<?php $this->widget('application.extensions.wsmenu.wsmenu', array(
-			'categories'=> $this->MenuTree,
+			'categories'=> $products,
 			'menuheader'=> Yii::t('global','Products'),
 			'showarrow'=>true,
 		)); //products dropdown menu ?>
 	</div>
 	
 	
-	<?php 
-	//Extract brand names from the menu tree tab, requires manufacturers to be enabled in admin panel
-	$brandsmenu = $this->MenuTree['families_brands_menu'];
-	$brands = $brandsmenu['children'];
-	?>
+	
 
 	<div class="span2">
 		<?php $this->widget('application.extensions.wsmenu.wsmenu', array(
+			'id'=>'nav_manu',
 			'categories'=> $brands,
 			'menuheader'=> Yii::t('global','Manufacturers'),
 			'showarrow'=>true,
@@ -32,11 +37,11 @@
 				'activeCssClass'=>'active',
 			)); ?>
 	</div>
-
+	<!--
 	<div id="searchentry" class="span3 offset1">
 		<?php echo $this->renderPartial("/site/_search",array(),true); ?>
 	</div>
-
+	-->
 </div><!-- menubar -->
 
 <?php if(Yii::app()->theme->info->showSeparateMobileMenu): ?>

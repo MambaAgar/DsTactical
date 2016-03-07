@@ -1,0 +1,12 @@
+.sprite{background-image:url(sprite.png);}
+.icon{display:inline;overflow:hidden;padding-left:18px;background-repeat:no-repeat;background-image:url(sprite.png);}
+.amex{background-position:0px 0px;width:76px;height:24px;}
+.cirrus{background-position:-4px -24px;width:72px;height:43px;}
+.diners-club{background-position:-18px -67px;width:58px;height:46px;}
+.discover{background-position:0px -113px;width:76px;height:49px;}
+.jcb{background-position:-29px -162px;width:47px;height:35px;}
+.maestro{background-position:-4px -197px;width:72px;height:43px;}
+.mastercard{background-position:-4px -240px;width:72px;height:43px;}
+.visa{background-position:0px -283px;width:76px;height:24px;}
+.visa-electron{background-position:0px -307px;width:76px;height:46px;}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen ad (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 240dpi) { .sprite { background-image:url(retina-sprite.png);  background-size: 76px 353px;  } }

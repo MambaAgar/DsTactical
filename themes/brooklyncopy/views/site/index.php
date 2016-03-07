@@ -10,19 +10,43 @@
 <head>
 <link rel ="stylesheet" type="text/css" href="<?php YiiBase::getPathOfAlias('webroot').'/themes/'.Yii::app()->theme->name.'/css/custom.css'?>">
 </head>
-<ul id="navbar">
-		<li><a href="brand/511" class="darken"><img src="images/gallery/1/_22.png" width="<?php echo Yii::app() -> theme -> config -> navSize?>" /></a></li>
-		<li><a href="brand/arcteryx" class="darken"><img src="images/gallery/1/_23.jpg" width="<?php echo Yii::app() -> theme -> config -> navSize?>" /></a></li>
-		<li><a href="brand/surefire" class="darken"><img src="images/gallery/1/_24.jpg" width="<?php echo Yii::app() -> theme -> config -> navSize?>" /></a></li>
-		<li><a href="brand/team-wendy" class="darken"><img src="images/gallery/1/_27.jpg" width="<?php echo Yii::app() -> theme -> config -> navSize?>" /></a></li>
-		<li><a href="brand/lowa" class="darken"><img src="images/gallery/1/_36.jpg" width="<?php echo Yii::app() -> theme -> config -> navSize?>"/></a></li>
-		<li><a href="brand/aimpoint" class="darken"><img src="images/gallery/1/_33.jpg" width="<?php echo Yii::app() -> theme -> config -> navSize?>" /></a></li>
-		<!-- <li><a href="brand/kifaru" class="darken"><img src="images/gallery/1/_34.jpg" width="<?php echo Yii::app() -> theme -> config -> navSize?>" /></a></li> -->
-		<li><a href="brand/vortex" class="darken"><img src="images/gallery/1/_35.jpg" width="<?php echo Yii::app() -> theme -> config -> navSize?>" /></a></li>
-		<li><a href="brand/tactical-tailor" class="darken"><img src="images/gallery/1/_44.jpg" width="<?php echo Yii::app() -> theme -> config -> navSize?>" /></a></li>
-		<li><a href="brand/vertx" class="darken"><img src="images/gallery/1/_46.jpg" width="<?php echo Yii::app() -> theme -> config -> navSize?>" /></a></li>
-</ul>
-		
+<!--
+<?php echo Yii::getVersion(); ?>
+-->
+<?php echo CHtml::link(CHtml::image($this->pageHeaderImage),$this->createUrl("site/index")); ?>
+
+<?php 
+$getNavImages = Yii::app() -> theme -> config -> navArray;
+if(!empty($getNavImages)) {
+
+	//Grabbing data from checkboxlist makes key the index number, so make key the image directory
+	$dataHolder2 = array_flip($getNavImages);
+	$imageDescript2 = Gallery::ImageListByDescript(1);
+
+	//Join arrays based on key, and set value to Description(holding url)
+	$dataArray2 = array_intersect_key($imageDescript2, $dataHolder2);
+
+	$image_url2 = Yii::app()->baseUrl;
+
+	foreach($dataArray2 as $dataKey2 => $dataValue2) {
+		!empty($dataValue2) ? $nav_arr[] = array('image' => $image_url2 . $dataKey2, 'url' => $dataValue2)
+		: $nav_arr[] = array('image' => $image_url2 . $dataKey2);
+	}
+
+echo '<ul id="imgbar">';
+	
+	foreach($nav_arr as $navImage) {
+		echo '<li><a href="';
+		echo $navImage['url'];
+		echo '"class="darken hideOnMedia"><img src="';
+		echo $navImage['image'];
+		echo '" width="';
+		echo Yii::app() -> theme -> config -> navSize;
+		echo '" /></a></li>'; 
+		}
+echo '</ul>';
+}
+?>
 <?php
 unset(Yii::app()->session['current_page']);
 

@@ -1,9 +1,77 @@
-<div id="topbar" class="row-fluid">
+<!--<div id="topbar" class="row-fluid">-->
+<?php
+if(Yii::app()->user->isGuest) {
+$link1 = array('label'=>Yii::t('global', 'Login'), 'url'=>$this->createUrl('site/login'), 'linkOptions'=>array('class'=>'nav-center-height text-collapse-center'));
+$link2 = array('label'=>Yii::t('global', 'Register'), 'url'=>$this->createAbsoluteUrl('/myaccount'), 'linkOptions'=>array('class'=>'nav-center-height text-collapse-center'));
+}
+else {
+$link1 = array('label'=>Yii::app()->user->firstname, 'url'=>$this->createAbsoluteUrl('/myaccount'), 'linkOptions'=>array('class'=>'nav-center-height text-collapse-center'));
+$link2 = array('label'=>Yii::t('global', 'Logout'), 'url'=>$this->createUrl('site/logout'), 'linkOptions'=>array('class'=>'nav-center-height text-collapse-center'));
+}
+
+$this->widget('bootstrap.widgets.TbNavbar', array(
+	'brandOptions' => array('class'=>'nav-center-height fixCompressNavbarLink'),
+	'type'=>'inverse', // null or 'inverse'
+	'collapse'=>true, // requires bootstrap-responsive.css
+	'fixed'=>'top',
+	'items'=>array(
+			/*
+			array(
+				'class'=>'bootstrap.widgets.TbMenu',
+				'items'=>array(
+        					array('label'=>_xls_get_conf('STORE_HOURS'), 'itemOptions'=>array('class'=>'nav-center-height fixCompressNavbarStatic')),
+					),
+			),
+			*/
+			array(
+				'class'=>'bootstrap.widgets.TbMenu',
+				'htmlOptions'=>array('class'=>'pull-left'),
+				'encodeLabel'=>false,
+				'items'=>array(
+						array('label'=>'<img class="nav-img-collapse-center" src="'.Yii::app()->theme->baseUrl.'/css/images/icons/logo-icon.png">', 'url'=>Yii::app() -> getBaseUrl(true), 'linkOptions'=>array('class'=>'img-highlight nav-brand-fix'), 'itemOptions'=>array('class'=>'nav-brand-li-fix')),
+        					array('label'=>'<img class="nav-img-collapse-center" src="'.Yii::app()->theme->baseUrl.'/css/images/icons/facebook-icon.png">', 'url'=>Yii::app() -> theme -> config -> fbLink, 'linkOptions'=>array('class'=>'nav-center-height-img img-highlight nav-left-margin-initial')), 
+        					array('label'=>"Facebook", 'itemOptions'=>array('class'=>'nav-center-height fixCompressNavbarStatic text-collapse-center')),
+        					array('label'=>'<img class="nav-img-collapse-center" src="'.Yii::app()->theme->baseUrl.'/css/images/icons/twitter-icon.png">', 'url'=>Yii::app() -> theme -> config -> twitterLink, 'linkOptions'=>array('class'=>'nav-center-height-img img-highlight nav-left-margin')),
+        					array('label'=>"Twitter", 'itemOptions'=>array('class'=>'nav-center-height fixCompressNavbarStatic text-collapse-center')),
+        					array('label'=>'<img class="nav-img-collapse-center" src="'.Yii::app()->theme->baseUrl.'/css/images/icons/instagram-icon.png">', 'url'=>Yii::app() -> theme -> config -> instaLink, 'linkOptions'=>array('class'=>'nav-center-height-img img-highlight nav-left-margin')),
+        					array('label'=>"Instagram", 'itemOptions'=>array('class'=>'nav-center-height fixCompressNavbarStatic text-collapse-center')),
+					),
+			),
+			array(
+				'class'=>'bootstrap.widgets.TbMenu',
+				'htmlOptions'=>array('class'=>'pull-right'),
+				'type'=>'',
+				'items'=>array(
+        					$link1, $link2,
+					),
+			),
+			//$this->renderPartial($this->createUrl('site/_search2')),
+			//'<form class="navbar-search pull-left" action="/search/results" method="get"><span class="search_box"><input autocomplete="off" placeholder="Search..." type="text" data-provide="typeahead" id="xlsSearch" name="q" />	</span></form>',
+			//'<form class="navbar-search pull-left" action=""><input type="text" class="search-query" placeholder="Search"></form>',
+			$this->renderPartial("/site/_search2",array(),true),
+			array(
+				'class'=>'bootstrap.widgets.TbMenu',
+				'encodeLabel'=>false,
+				'htmlOptions'=>array('class'=>'pull-right'),
+				'items'=>array(
+						array('label'=>'Flat Rate Shipping', 'url'=>$this->createUrl(Yii::app() -> theme -> config -> flatLink),'linkOptions'=>array('class'=>'nav-center-height text-collapse-center')),
+        					array('label'=>'<img class="nav-img-collapse-center" src="'.Yii::app()->theme->baseUrl.'/css/images/icons/cart-icon.png">', 'url'=>$this->createUrl('cart/index'), 'linkOptions'=>array('class'=>'nav-center-height-img img-highlight')),
+					),
+			),
+		),
+	
+)); 
+
+?>
+  	<!--
 	<div class="span9">
 		<div id="headerimage">
 			<?php echo CHtml::link(CHtml::image($this->pageHeaderImage),$this->createUrl("site/index")); ?>
 		</div>
 	</div>
+	-->
+	
+	<!--
 	<div class="span3">
 		<div id="login">
 			<?php if(Yii::app()->user->isGuest): ?>
@@ -21,4 +89,5 @@
 				</div>
 		<?php endif; ?>
 	</div>
-</div>
+	-->
+<!--</div>-->

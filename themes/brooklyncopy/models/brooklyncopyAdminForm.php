@@ -77,6 +77,13 @@ class brooklyncopyAdminForm extends ThemeForm
 	
 	//Navigation bar
 	public $navSize = 50;
+	public $navArray = array();
+	
+	//Links
+	public $fbLink = 'https://www.facebook.com/DS-Tactical-131613890182379/';
+	public $twitterLink = 'https://twitter.com/dstactical/';
+	public $instaLink = 'https://www.instagram.com/dstactical/';
+	public $flatLink = '/contact-us';
 
 	/**
 	 * Declares the validation rules.
@@ -94,6 +101,11 @@ class brooklyncopyAdminForm extends ThemeForm
 			array('query','default','value' => ''),
 			array('hasQuery','default','value' => false),
 			array('navSize','default','value' => 50),
+			array('navArray','default','value' => null),
+			array('fbLink','default','value' => 'https://www.facebook.com/DS-Tactical-131613890182379/'),
+			array('twitterLink','default','value'=>'https://twitter.com/dstactical/'),
+			array('instaLink','default','value'=>'https://www.instagram.com/dstactical/'),
+			array('flatLink','default','value'=>'/contact-us'),
 			//array('testvar','required'), //you can also stack items i.e. array('CHILD_THEME,testvar','required'),
 		);
 	}
@@ -165,10 +177,37 @@ class brooklyncopyAdminForm extends ThemeForm
 					'step' => 100,
 					'label' => 'Duration of transition effects (in milliseconds)',
 				),
+				
+				'fbLink'=>array(
+					'type'=>'text',
+					'label'=>'Facebook Link',
+				),
+				
+				'twitterLink'=>array(
+					'type'=>'text',
+					'label'=>'Twitter Link',
+				),
+				
+				'instaLink'=>array(
+					'type'=>'text',
+					'label'=>'Instagram Link',
+				),
+				
+				'flatLink'=>array(
+					'type'=>'text',
+					'label'=>'Flat Rate Shipping Link (Relative)',
+				),
 
 				'slider_images'=>array(
 					'type'=>'checkboxlist',
 					'items'=>$image_array,
+					'labelOptions'=>array('style'=> "display: inline-block;"),
+				),
+				
+				'navArray'=>array(
+					'type'=>'checkboxlist',
+					'items'=>$image_array,
+					'label'=>'Brand navigation bar',
 					'labelOptions'=>array('style'=> "display: inline-block;"),
 				),
 

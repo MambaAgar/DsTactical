@@ -13,15 +13,23 @@ class brooklyn2014AdminForm extends ThemeForm
 	 */
 	protected $name = "Brooklyn 2014";
 	protected $thumbnail = "brooklyn2014.png";
-	protected $version = 4;
+	protected $version = 5;
 	protected $description = "Our new default template, suitable for any type of business.";
 	protected $credit = "Designed by Lightspeed";
 	protected $parent; //Used when a theme is a copy of another theme to control inheritance
-	protected $bootstrap = null;
+	protected $bootstrap = 'none';
 	protected $viewset = "cities3";
 	protected $cssfiles = "base,style,light,_2014";
 	protected $GoogleFonts = "Dosis:700,500,400|Ropa+Sans"; // use this value to load Google Fonts for your design, i.e. $GoogleFonts = "Tangerine|Inconsolata|Droid+Sans"
 	protected $advancedCheckout = true;
+	// Use this value to set the appropriate version of modal.css:
+	// - Use the 'dev' value to work in development and then
+	// - Increment version number at each release when changes are made to modal.css.
+	// Note than in addition to incrementing the version number, you will need to
+	// move the latest version of modal-dev.css from runtime/sass-compiled to
+	// umber/assets/ with the updated file name eg. modal-1.0.1.css.
+	protected $modalVersion = '1.0.1';
+
 
 	/*
 	 * IMAGE SIZES
@@ -109,8 +117,5 @@ class brooklyn2014AdminForm extends ThemeForm
 			),
 		);
 	}
-
-
-
 
 }

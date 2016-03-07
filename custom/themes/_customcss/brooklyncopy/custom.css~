@@ -1,0 +1,242 @@
+/*body {
+    background-image: url("http://i.imgur.com/2vXpena.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  	background-size:cover
+}
+*/
+
+#xlsSearch {
+	margin:7px 0 -20px 0;
+}
+
+.nav-center-height { 
+    padding-top:12px !important; 
+    padding-bottom:0 !important;
+}
+.nav-center-height-img { 
+    padding-top:9px !important;
+    padding-bottom:0 !important;
+    height: 24px;
+}
+.nav-left-padding {
+ 	padding-left:50px !important;
+}
+
+/***** Search Box *****/
+/*#searchentry_topbar .search_left img { padding-top: 1px; } */
+#searchentry_topbar .search_box input { color: #aaaaaa; border: 0px; border-color: transparent; background-color: white;}
+#searchentry_topbar .searchTextBox .searched { color: #000000; }
+
+.dropdown-menu .active > a, .dropdown-menu .active > a:hover { color: white; background-color: #000000; background-image: linear-gradient(to bottom, #666666, #474747);padding-top: 30px;}
+.dropdown-menu strong { color: #bababa; }
+
+/* Image Zoom */
+.cloudzoom-lens {
+    border:5px solid #888;
+    width:200px;
+    height:200px;
+    box-shadow: -0px -0px 10px rgba(0,0,0,0.40);
+    cursor:crosshair;
+    z-index: 10;
+}
+/* Navigation Bar */
+
+body { padding-top: 70px; }
+.fixCompressNavbarLink:link { display:block; }
+.fixCompressNavbarStatic { display:block; }
+@media screen and (max-width:980px){
+    body { padding-top: 0px; }
+  .fixCompressNavbarLink:link { padding-left: 1em;}
+  .fixCompressNavbarStatic { padding-left: 1em;}
+  .hideOnMedia:link { display:none; }
+}
+@media screen and (max-width:1200px){
+.navbar .container{
+    width: auto;
+    padding: 0;
+}
+}
+
+#imgbar {
+   list-style-type: none;
+   display: inline;
+   margin: 0;
+  /* PADDING FOR ENTIRE ROW */
+  padding-left: 12px;
+}
+
+#imgbar li {
+   list-style-type: none;
+   display: inline;
+   /* PADDING PER BLOCK */
+   padding-right: 25px;
+}
+
+/* Navigation bar effect */
+a.darken {
+    display: inline-block;
+    background: black;
+    padding: 0;
+}
+
+a.darken img {
+    display: block;
+
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
+a.darken:hover img {
+    opacity: 0.7;
+}
+
+a.img-highlight img {
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
+a.img-highlight:hover img {
+    background-color: red;
+}
+
+/* Featured Items Text */
+.featured {
+  	font: 24px Tahoma;
+    text-align: left;
+    /*color: red;*/
+    text-transform: uppercase;
+    color: #222;
+	text-shadow: 0px 2px 3px #555;
+}
+
+/***** Navigation (Products dropdown) and tabs *****/
+#menubar { margin-bottom: 5px; height: 25px; border-bottom: 1px solid #ff0000; }
+#menutabs { margin-top: 3px; margin-left: 0px;}
+.menutab {  font-size: 0.8em; font-weight: 600; text-align: center; text-transform: uppercase; cursor: pointer;}
+.menutab a {  color: #444444;}
+.innertab a { text-decoration: none;}
+.menuheight { height: 30px;}
+.menuunderline { }
+.menuunderline:hover { border-bottom: 5px solid #000000;}
+.menutab a:hover {  color: #ff0000; }
+
+/*
+#menutree {
+  -webkit-column-count: 5; 
+    -moz-column-count: 5; 
+    column-count: 5;
+    width: 700px;
+}
+*/
+
+#menutree li{
+ 
+}
+
+/* PRODUCTS TAB */
+#nav_products li { float: left; width: 15em; height: 25px;  z-index: 2000; line-height:15px !important; } 
+
+#nav_products { font-weight: 600; height: 47px; text-decoration: none; z-index: 2000; border-bottom: 0px; text-align: left; cursor: pointer; margin-left: 9px; margin-top: 3px;}
+
+#nav_products .productstab { height: 45px; margin-top: 2px;}
+#nav_products #menutree, #nav_products .dropspace { margin-top: 10px;} /* push dropdown menu down from underneath PRODUCTS tab */
+#nav_menuheader #menutree .dropspace { margin-left: 100px;}
+ /* all this to create dropdown and popout menu effects */
+#nav_products a { display: block; margin-right: 5px; padding: 0 0 0 0 ; text-decoration: none;  z-index: 2000;}
+#nav_products ul { border: none; line-height: 1; list-style: none; list-style-type: none; margin: 0px 0px 0px 0px; padding-bottom: 20px;z-index: 2000;}
+#nav_products ul a {  border-bottom: 1px solid #ff0000; z-index: 2000;}
+
+
+/* #nav_products li ul { left: -999em; position: absolute; width: 10em; height: 29px; z-index: 2000; } */
+
+/* Trick for horizontal tab */
+/*#nav_products li ul { left: -999em; position: absolute; width: 80em; height: 100em; z-index: 2000;}*/
+#nav_products li ul { left: -999em; position: absolute; width: 10em; height: 29px; z-index: 2000; }
+
+
+/* Sub-menu dropdown  */
+/* #nav_products li ul ul { margin: -5px 0 0 40px; z-index: 2000; } */
+#nav_products li ul ul { margin: -32px 0 0 180px; z-index: 2000; }
+
+/* #nav_products ul li ul li a { font-size: 1em; font-weight: 700; padding: 8px 10px; width: 160px; border-bottom: 1px solid #FFF; z-index: 2000;} */
+/* Box */
+#nav_products ul li ul li a { font-size: 1em; font-weight: 700; padding: 8px 10px; width: 160px; border-bottom: 1px solid #FFF; z-index: 2000;} 
+
+/* Keep parent menu highlighted */
+#nav_products ul li ul li:hover > a { border-bottom: 1px solid #ff0000; z-index: 2000; color: #00ff00; }
+/* SubMenu Highlight */
+#nav_products ul li ul li a:hover { border-bottom: 1px solid #ff0000; z-index: 2000; color: #ff0000; }
+
+#nav_products li:hover ul ul, #nav_products li:hover ul ul ul, #nav_products li.sfhover ul ul, #nav_products li.sfhover ul ul ul { left: -999em; z-index: 2000; }
+#nav_products li:hover ul, #nav_products li li:hover ul, #nav_products li li li:hover ul, #nav_products li.sfhover ul, #nav_products li li.sfhover ul, #nav_products li li li.sfhover ul, #nav_products li:hover ul, #nav_products li:hover ul, #nav_products li.sfhover ul, #nav_products li:hover ul, #nav_products li li:hover ul, #nav_products li.sfhover ul, #nav_products li li.sfhover ul {left: auto; z-index: 2000;}
+
+#nav_products .arrow { margin: 1px 0 0 15px; }
+.familylist ul { list-style-type: none;}
+
+/* MANUFACTURERS TAB */
+#nav_manu li { float: left; width: 15em; height: 25px;  z-index: 2000; line-height:15px !important; } 
+
+#nav_manu { font-weight: 600; height: 47px; text-decoration: none; z-index: 2000; border-bottom: 0px; text-align: left; cursor: pointer; margin-left: 9px; margin-top: 3px;}
+
+#nav_manu .productstab { height: 45px; margin-top: 2px;}
+#nav_manu #menutree, #nav_manu .dropspace { margin: 10px 0px 0px -165px;} /* push dropdown menu down from underneath PRODUCTS tab */
+#nav_menuheader #menutree .dropspace { margin-left: 100px;}
+ /* all this to create dropdown and popout menu effects */
+#nav_manu a { display: block; margin-right: 5px; padding: 0 0 0 0 ; text-decoration: none;  z-index: 2000;}
+#nav_manu ul { border: none; line-height: 1; list-style: none; list-style-type: none; margin: 0px 0px 0px 0px; padding-bottom: 20px;z-index: 2000;}
+#nav_manu ul a {  border-bottom: 1px solid #ff0000; z-index: 2000;}
+
+
+/* #nav_products li ul { left: -999em; position: absolute; width: 10em; height: 29px; z-index: 2000; } */
+
+/* Trick for horizontal tab */
+#nav_manu li ul { left: -999em; position: absolute; width: 90em; /*height: 100em;*/ z-index: 2000;}
+
+/* #nav_products li ul ul { margin: -33px 0 0 180px; z-index: 2000; } */
+/* Sub-menu dropdown  */
+#nav_manu li ul ul { margin: -5px 0 0 40px; z-index: 2000; }
+
+/* #nav_products ul li ul li a { font-size: 1em; font-weight: 700; padding: 8px 10px; width: 160px; border-bottom: 1px solid #FFF; z-index: 2000;} */
+/* Box */
+#nav_manu ul li ul li a { display: block; padding: 8px 10px; width: 140px; border-bottom: 1px solid #FFF; z-index: 2000; white-space: nowrap;  overflow: hidden; text-overflow: ellipsis;} 
+
+
+#nav_manu ul li ul li a:hover { border-bottom: 1px solid #ff0000; z-index: 2000; color: #ff0000; }
+#nav_manu li:hover ul ul, #nav_manu li:hover ul ul ul, #nav_manu li.sfhover ul ul, #nav_manu li.sfhover ul ul ul { left: -999em; z-index: 2000; }
+#nav_manu li:hover ul, #nav_manu li li:hover ul, #nav_manu li li li:hover ul, #nav_manu li.sfhover ul, #nav_manu li li.sfhover ul, #nav_manu li li li.sfhover ul, #nav_manu li:hover ul, #nav_manu li:hover ul, #nav_manu li.sfhover ul, #nav_manu li:hover ul, #nav_manu li li:hover ul, #nav_manu li.sfhover ul, #nav_manu li li.sfhover ul {left: auto; z-index: 2000;}
+
+#nav_manu .arrow { margin: 1px 0 0 15px; }
+.familylist ul { list-style-type: none;}
+
+#nav_manu ul a { color: white; border-bottom: 1px dotted #cccccc;}
+#nav_manu ul li ul li a { background: #2c2c2c; border-bottom: 1px dotted #cccccc; }
+#nav_manu ul li ul li a:hover { background: #2c2c2c; border-bottom: 1px dotted #cccccc; }
+
+
+/***** Product Grid *****/
+#gridheader { }
+#gridheader h1 { line-height: 40px; margin-top: 0px; margin-bottom: 3px; }
+.subcategories { margin-left: 10px; margin-bottom: 15px;}
+.subcategories a { text-decoration: underline; margin-right: 10px;}
+.product_cell { min-height: 300px !important; vertical-align: baseline; cursor: pointer; margin-bottom: 10px; margin-left: 5px  !important;}
+.product_cell_graphic { height: 225px; margin: auto;}
+.product_cell img { max-width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto; margin-top: 10px; padding-top: 20px;}
+.product_cell_label  { clear: both; margin: auto;  padding-top: 0; padding-left: 2px; padding-right: 2px; text-transform:uppercase; height: 65px; vertical-align: bottom;  text-align: center;}
+.product_cell_label .product_cell_price {font-size: 1.2em; padding: 0px; padding-top: 10px}
+.product_cell_label .product_cell_price_slash { text-decoration: line-through;  padding-right: 10px; }
+.product_cell_label .product_cell_price_slash:empty { display: none; }
+.product_cell a { font-size: 0.8em;  margin-bottom: 0px; padding-top: 8px; line-height: 1.2em;}
+.product_cell_label a { font-size: 0.8em; text-decoration: none;  font-weight: 600; display: block; white-space: nowrap; overflow: none; text-overflow: ellipsis; padding: 8px 5px 0px; border-bottom: 1px solid #ff0000;}
+
+#custom_content { margin-bottom: 14px;}
+#custom_content b { font-weight: 700; }
+#custom_content i { font-style: italic; }
+#custom_content a { text-decoration: underline; }

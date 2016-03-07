@@ -1,55 +1,9 @@
 <?xml version='1.0' standalone='yes'?>
 <files>
-<version_from>3.2.5</version_from>
-<version_to>3.2.6</version_to><item>
-		<filename>./core/framework/base/CModel.php</filename>
-		<original_hash version='3.2.6'>42dc870c25f1591bc91d428c75a8b89d</original_hash>
-		<original_hash version='3.2.5'>efc61d2f7f2f47b0e18cc3b09c4b6814</original_hash>
-		<original_hash version='3.0.7'>dbfd0fac42d8bbe79dd8663a1f80e48d</original_hash>
-		<action>replace</action>
-		<status>critical</status>
-	</item>
-	<item>
-		<filename>./core/framework/web/CHttpRequest.php</filename>
-		<original_hash version='3.2.6'>f61e0943cbdaf446ed666a1c815a8e44</original_hash>
-		<original_hash version='3.2.5'>eee23132a1ae7c18aa1b822468bb5238</original_hash>
-		<original_hash version='3.0.7'>51bfc7e2118e4a844a72dda7430a88fb</original_hash>
-		<action>replace</action>
-		<status>critical</status>
-	</item>
-	<item>
-		<filename>./core/framework/yii.php</filename>
-		<original_hash version='3.2.6'>51e32e8d98014d914de835ceebc149c3</original_hash>
-		<original_hash version='3.2.5'>3bcab02958fb42782a9323bf56c9113c</original_hash>
-		<original_hash version='3.0.7'>174a415757a0c4bfa7823a691c28e0a9</original_hash>
-		<action>replace</action>
-		<status>critical</status>
-	</item>
-	<item>
-		<filename>./core/framework/YiiBase.php</filename>
-		<original_hash version='3.2.6'>a47d43d3a1c34c65d0d3bbaebd5cda7a</original_hash>
-		<original_hash version='3.2.5'>2f932644b3ca996236b0b4759311ada3</original_hash>
-		<original_hash version='3.0.7'>eeabc490bbbd02d4e4d21425dd2b9020</original_hash>
-		<action>replace</action>
-		<status>critical</status>
-	</item>
-	<item>
-		<filename>./core/framework/yiilite.php</filename>
-		<original_hash version='3.2.6'>7217d836b439fc32dfce81505524e58f</original_hash>
-		<original_hash version='3.0.7'>20af02332eb220b54b42463105a03257</original_hash>
-		<action>replace</action>
-		<status>critical</status>
-	</item>
-	<item>
-		<filename>./core/framework/zii/widgets/CDetailView.php</filename>
-		<original_hash version='3.2.6'>02496f41753f000c820c2b3a30df4aab</original_hash>
-		<original_hash version='3.2.5'>1accd6400bfa34e0fc34f20197bf8e45</original_hash>
-		<original_hash version='3.0.7'>6ab70366d72d47e08092e0ce122db6c6</original_hash>
-		<action>replace</action>
-		<status>critical</status>
-	</item>
-	<item>
+<version_from>3.2.6</version_from>
+<version_to>3.2.7</version_to><item>
 		<filename>./core/protected/components/Controller.php</filename>
+		<original_hash version='3.2.7'>1685e873fd479e112790ea6e949e7aed</original_hash>
 		<original_hash version='3.2.6'>2fcb20ccadf7cfacf92adcdcebc0cd18</original_hash>
 		<original_hash version='3.2.5'>60eda312170570c9952596303114e56f</original_hash>
 		<original_hash version='3.2.4'>8cdd055921df67a3300abd41389a6008</original_hash>
@@ -69,35 +23,51 @@
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/components/ShoppingCart.php</filename>
-		<original_hash version='3.2.6'>ac2a0622b8424d6e6a6c94df8d390c4c</original_hash>
-		<original_hash version='3.2.5'>8a88c109b97419c53cb26976565ccdb8</original_hash>
-		<original_hash version='3.2.4'>66584cc8db365e3f9f479f511b4829dd</original_hash>
-		<original_hash version='3.1.12'>d5e244d5e329dcdfa77fb538ba874b41</original_hash>
-		<original_hash version='3.1.10'>a90a7ae18104e6865050c55192c365d6</original_hash>
-		<original_hash version='3.1.9'>dab009be44c0347536c993b109ed7834</original_hash>
-		<original_hash version='3.1.4'>2bb9ec74ab4d36df915a4f2a787e38a4</original_hash>
-		<original_hash version='3.0.7'>d2e5005a629aff02c64522ea70bd9de5</original_hash>
-		<original_hash version='3.0.4'>d8f7ab48fbbe8ca8e6ea2b09fd4a1aaf</original_hash>
-		<original_hash version='3.0.1'>841e54054ea06bb275b29338a4e2d913</original_hash>
-		<original_hash version='3.0.0.1'>813931c6b31bdb860231f8f52e90d364</original_hash>
+		<filename>./core/protected/components/helpers.php</filename>
+		<original_hash version='3.2.7'>2aab80ec9881a9ff123b736eedd25f05</original_hash>
+		<original_hash version='3.2.6'>48c7ad287bb510831e33a2eda7a74819</original_hash>
+		<original_hash version='3.2.4'>15c7cea8e11d6a9fd9d3b504862213e9</original_hash>
+		<original_hash version='3.1.12'>ccc87ecee78371f0f6637cdd973f1dfc</original_hash>
+		<original_hash version='3.1.8'>eafc0d57a0f02ea5c7f459ebb82ad58d</original_hash>
+		<original_hash version='3.1.7'>81712223cfc3ada9a1917ac1c2861142</original_hash>
+		<original_hash version='3.1.6'>44d7085f810bac39e4b8115eeb442fba</original_hash>
+		<original_hash version='3.0.7'>e38a8c53f2492d6b4ce94882d5187d42</original_hash>
+		<original_hash version='3.0.5'>cb0ce91310797e33d64bfcda406e56d0</original_hash>
+		<original_hash version='3.0.4'>67a6296ffc6c101d573e0e2dd406f8ce</original_hash>
+		<original_hash version='3.0.3'>e7d488db0bb9543bfc1cb102e8f3a555</original_hash>
+		<original_hash version='3.0.2'>fc2f4222714467cb6cd22d9f939c9b31</original_hash>
+		<original_hash version='3.0.1'>af35853381a0b904c35cbe9bbced8351</original_hash>
+		<original_hash version='3.0.0.1'>57a0ee2879e27a64e9b2e242a0722147</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/components/WebUser.php</filename>
-		<original_hash version='3.2.6'>85ca4f7268e7932e371e4540078a02d0</original_hash>
-		<original_hash version='3.2.5'>51c1f5f1dbec21c7ea5d3175a1bde1ff</original_hash>
-		<original_hash version='3.2.4'>23cb6dc64f22e2d106faa188c3f0663b</original_hash>
-		<original_hash version='3.1.12'>32357c36a6ebc94857d2152c15e2e1a0</original_hash>
-		<original_hash version='3.1.10'>e9aa4f352e9d17639283d55b93562bac</original_hash>
-		<original_hash version='3.0.7'>4103a7cd516e45a774bdb144930f49fe</original_hash>
-		<original_hash version='3.0.1'>f04755034c5e1b148e903e4fbb9ad354</original_hash>
+		<filename>./core/protected/components/UserIdentity.php</filename>
+		<original_hash version='3.2.7'>12451ec08afa3b3c05727289453af30e</original_hash>
+		<original_hash version='3.2.6'>b8f97f7726ceaccd01826d1ccb87990d</original_hash>
+		<original_hash version='3.2.4'>d8b2836d379c33cf90d60c4c66af9052</original_hash>
+		<original_hash version='3.1.12'>a7d396add3bce3135dafa28596deb1da</original_hash>
+		<original_hash version='3.1.4'>d5c385ad7d4e80644be3555bd3833520</original_hash>
+		<original_hash version='3.0.7'>32d9c40d88fd103680393526ea73d482</original_hash>
+		<original_hash version='3.0.2'>b854098d6bcbde3251cde9c3a1f0d81c</original_hash>
+		<original_hash version='3.0.1'>3972025791af84ae17bdc9613a0b358f</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/components/WsExtension.php</filename>
+		<original_hash version='3.2.7'>a02ed5d220c6fccfa35a2f3241a7487d</original_hash>
+		<original_hash version='3.2.6'>c3177d37b5c5e30c9581496401f9ae6e</original_hash>
+		<original_hash version='3.2.4'>20436b63e62b1cc3682196a6e7f49426</original_hash>
+		<original_hash version='3.1.12'>9b7a6004ba9d92e931a7644559c82dad</original_hash>
+		<original_hash version='3.0.7'>9ffb01a6997e9dfd13eefe0416464ee0</original_hash>
+		<original_hash version='3.0.5'>573398c4e2038612e9f715a8a3598fbc</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
 		<filename>./core/protected/components/WsWebApplication.php</filename>
+		<original_hash version='3.2.7'>f07a6a395c458fd3b2d977f99b762798</original_hash>
 		<original_hash version='3.2.6'>d3b044caa07378083e477babbdb92d05</original_hash>
 		<original_hash version='3.2.5'>2323e7053ad81237535df58bfa539df7</original_hash>
 		<original_hash version='3.1.12'>23dc7d4f5a482bb1faf4232e34997956</original_hash>
@@ -113,7 +83,19 @@
 		<status>critical</status>
 	</item>
 	<item>
+		<filename>./core/protected/controllers/ApiController.php</filename>
+		<original_hash version='3.2.7'>ccf3b70c520bf8be32b167565e232399</original_hash>
+		<original_hash version='3.2.6'>f794bfbef7afda1f2d0a4c7fda8bb931</original_hash>
+		<original_hash version='3.1.12'>e2914769035f15420c81fd94f58e9c26</original_hash>
+		<original_hash version='3.1.9'>a055ce1bcfbe0a0db81f362583887667</original_hash>
+		<original_hash version='3.1.6'>80cb4b830ba8a7f7d1e895ba63ea713d</original_hash>
+		<original_hash version='3.1.5'>e07377dede92715532797057d7053149</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
 		<filename>./core/protected/controllers/CartController.php</filename>
+		<original_hash version='3.2.7'>932358994e97956542e3620742bc266a</original_hash>
 		<original_hash version='3.2.6'>b21cef5c42d9710813ae26847f62432d</original_hash>
 		<original_hash version='3.2.5'>afcd6c3043ab8dc77a1cf5fd2efae501</original_hash>
 		<original_hash version='3.2.4'>47ef237972701b83e927a5d515a3e9f5</original_hash>
@@ -135,23 +117,32 @@
 	</item>
 	<item>
 		<filename>./core/protected/controllers/CheckoutController.php</filename>
+		<original_hash version='3.2.7'>65bb1c387b5839ad082996ba95bfac31</original_hash>
 		<original_hash version='3.2.6'>d015f7a2e4996d312853e7dab537df3f</original_hash>
 		<original_hash version='3.2.5'>c0f65fbb6281a7d60fce4e0c5443ed9c</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/controllers/CustompageController.php</filename>
-		<original_hash version='3.2.6'>99578078b67942172955c73389be00a7</original_hash>
-		<original_hash version='3.2.5'>49ce50fdcaf7f5c0010ae67720f60784</original_hash>
-		<original_hash version='3.1.12'>083b803582bcdb36b1b89767de36380a</original_hash>
-		<original_hash version='3.0.7'>53eb9976e403ce64be328c4a4850bcc5</original_hash>
-		<original_hash version='3.0.6'>984200d0ced488fb16a0ecbc2c5ab78a</original_hash>
+		<filename>./core/protected/controllers/CommonsslController.php</filename>
+		<original_hash version='3.2.7'>50395aee8188994d7ad969dd19a53dad</original_hash>
+		<original_hash version='3.2.6'>ac34f5df480cf88f9fe6d2a6b1e4ff5e</original_hash>
+		<original_hash version='3.2.3'>f8108605c94092ae97ad42483c294e39</original_hash>
+		<original_hash version='3.1.12'>1eb4ea410dec0b837e1b1a42b36bc164</original_hash>
+		<original_hash version='3.1.5'>6163a0ebb862bd5108678b697abf63a8</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/controllers/FacebookController.php</filename>
+		<original_hash version='3.2.7'>2b2dbdd6379627197c6cb2d8c85c87ea</original_hash>
+		<original_hash version='3.2.6'>c27ebee30906d4f23bc78a487c756caf</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
 		<filename>./core/protected/controllers/InstallController.php</filename>
+		<original_hash version='3.2.7'>79929c883544cf93b16e567d1d3f35f2</original_hash>
 		<original_hash version='3.2.6'>56ea25324900b8e3262235054bf37cc3</original_hash>
 		<original_hash version='3.2.5'>28b6c60111bde11115882c53ed08def4</original_hash>
 		<original_hash version='3.2.4'>64c80a482d2f081ae9d811e372c328bd</original_hash>
@@ -168,21 +159,22 @@
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/controllers/LegacysoapController.php</filename>
-		<original_hash version='3.2.6'>d5ce9cf2c1ab8de32c8a18760f304fda</original_hash>
-		<original_hash version='3.2.5'>690e7fbeefa5972a9f64b19834774f28</original_hash>
-		<original_hash version='3.2.4'>d9f0662a5c2735ff061f516c1ac3a916</original_hash>
-		<original_hash version='3.1.12'>f400b2d4c677769b5292f8763a17ce22</original_hash>
-		<original_hash version='3.1.4'>5860553d16896d4ddeff902e5d170cfe</original_hash>
-		<original_hash version='3.0.7'>379bf8435883aaeb75b75fd9db3247e2</original_hash>
-		<original_hash version='3.0.5'>49c284ab39a944b5f2b94dd62de7bac7</original_hash>
-		<original_hash version='3.0.4'>089a488f7c4d7c32fa1f9fae853b15af</original_hash>
-		<original_hash version='3.0.1'>d39c2edf2bb731e0ee93313677c539de</original_hash>
+		<filename>./core/protected/controllers/MyaccountController.php</filename>
+		<original_hash version='3.2.7'>df9e39010733c3c9a9354050611242d3</original_hash>
+		<original_hash version='3.2.6'>f96df9d908247259ac1d18a66ae05a02</original_hash>
+		<original_hash version='3.2.4'>015353aec283574b731f7b827de8f862</original_hash>
+		<original_hash version='3.2.3'>ae5d30549e56fbfb4c675e92ed43cca8</original_hash>
+		<original_hash version='3.1.12'>5883ba55044824f030a63fb2ca86d921</original_hash>
+		<original_hash version='3.1.8'>2a4a4d17b6a35d68d1063846b7bf9970</original_hash>
+		<original_hash version='3.1.4'>95e1fe4e8a7b939f3276a055f3ed4abb</original_hash>
+		<original_hash version='3.0.7'>ae679b7f44c58b780a47965ec3ca58c2</original_hash>
+		<original_hash version='3.0.0.1'>2f0f7fe91f59d3cee8e43a8e2e5559a1</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
 		<filename>./core/protected/controllers/ProductController.php</filename>
+		<original_hash version='3.2.7'>df575eea305c0ad4946ef0e7dc6806c7</original_hash>
 		<original_hash version='3.2.6'>08bce0cabb63d6218f3543a13b5457e0</original_hash>
 		<original_hash version='3.2.5'>4425b7d31a1752917a3f8beb2ebf97ef</original_hash>
 		<original_hash version='3.1.12'>bda91bc279ff20c08c9b7541436ba053</original_hash>
@@ -196,6 +188,7 @@
 	</item>
 	<item>
 		<filename>./core/protected/controllers/SearchController.php</filename>
+		<original_hash version='3.2.7'>794c41f1122990e173d21299cb452fbc</original_hash>
 		<original_hash version='3.2.6'>d7ad85e75c6e9fff44ac9681317938ee</original_hash>
 		<original_hash version='3.2.5'>b1d6903afda2ff6a6d73aaf0074da246</original_hash>
 		<original_hash version='3.2.2'>e92aafb5452abe2515250dfc67ccf539</original_hash>
@@ -211,6 +204,7 @@
 	</item>
 	<item>
 		<filename>./core/protected/controllers/SiteController.php</filename>
+		<original_hash version='3.2.7'>938b1b30d438d9dc273473a7454de91e</original_hash>
 		<original_hash version='3.2.6'>bdc54cc1afad219362c35d281bb7d5ba</original_hash>
 		<original_hash version='3.2.5'>22c4e58d9d94456e59d819f15b1521e6</original_hash>
 		<original_hash version='3.2.3'>1173925c6bc534dd98d723818f877f1f</original_hash>
@@ -225,94 +219,87 @@
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/controllers/SoapController.php</filename>
-		<original_hash version='3.2.6'>676907e4dd0e54e200837ecba5b67377</original_hash>
-		<original_hash version='3.2.5'>bbd7797dd710fa49c30edf0ee7fa0809</original_hash>
-		<original_hash version='3.2.4'>2985faeddba87995f19b2830ba9a2c7f</original_hash>
-		<original_hash version='3.1.12'>7140d843eeaaf3cc2d74a0fdfe7f8ae2</original_hash>
-		<original_hash version='3.1.11'>0d0047ba65ddce935ee8e7dd62ed91a7</original_hash>
-		<original_hash version='3.1.10'>bb583e9bec0c9f4925927e808d1b3202</original_hash>
-		<original_hash version='3.1.9'>b21818bbe9e0159fdd059d0d5fbb5e27</original_hash>
-		<original_hash version='3.1.8'>191091c65b973718367a1f13c1d12825</original_hash>
-		<original_hash version='3.1.6'>3ae8be9c2756a3c364d767fa967bffc7</original_hash>
+		<filename>./core/protected/controllers/SroController.php</filename>
+		<original_hash version='3.2.7'>b7caa86767d4e58c3622227579678f6f</original_hash>
+		<original_hash version='3.2.6'>bd662bf3a3908421a949967b673a3b94</original_hash>
+		<original_hash version='3.2.3'>9d1b312f1d8e81760c9995bdf8d1bc8a</original_hash>
+		<original_hash version='3.1.12'>bfdceda44edca6bf737dc4b52f62607c</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/controllers/xml/Sitemap.php</filename>
-		<original_hash version='3.2.6'>537fc937d77091bd7f0c7c0440da91b9</original_hash>
-		<original_hash version='3.2.5'>625d8d57927930146989184da0f07d09</original_hash>
+		<filename>./core/protected/controllers/WishlistController.php</filename>
+		<original_hash version='3.2.7'>687b8beabb570ef59b3bc8418f88d01a</original_hash>
+		<original_hash version='3.2.6'>5adabe5bb76971ebabcbef3fb1039954</original_hash>
+		<original_hash version='3.1.12'>57c171924d7de69ec4c5631b2319f9c1</original_hash>
+		<original_hash version='3.1.7'>29d1a48b94eb5675712b0e723f755954</original_hash>
+		<original_hash version='3.0.7'>febaa576c51341a0dc3a03a922823551</original_hash>
+		<original_hash version='3.0.0.1'>9c1bbac65b06a2b4d416d5a64c4f1f5e</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/extensions/HumanNameParser/Parser.php</filename>
-		<original_hash version='3.2.6'>fd03ae457e9f003c1e9ce496a74b8331</original_hash>
-		<original_hash version='3.2.5'>f257ec8647051b7432a6fb7f53604948</original_hash>
+		<filename>./core/protected/controllers/XmlController.php</filename>
+		<original_hash version='3.2.7'>cfa4edad11a456d6a035772ed9ac04be</original_hash>
+		<original_hash version='3.2.6'>a426af97521a47f3a361387aec93c898</original_hash>
+		<original_hash version='3.1.6'>01d581fca1f8681a9e62e78034e58b18</original_hash>
+		<original_hash version='3.0.7'>fbb2d82f78faea33f92311c63741ebd2</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/extensions/HumanNameParser/Tests/NameTest.php</filename>
-		<original_hash version='3.2.6'>dae833438d8e2c6c75e4a686c71c612b</original_hash>
-		<original_hash version='3.2.5'>1d0740999db233fa3513a49f8f127576</original_hash>
+		<filename>./core/protected/extensions/SMiniColors/SActiveColorPicker.php</filename>
+		<original_hash version='3.2.7'>3b512ae706de5d7852ac32df2490c918</original_hash>
+		<original_hash version='3.2.6'>abe57e81c2f35b44312a125ce8b61389</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/extensions/HumanNameParser/Tests/ParserTest.php</filename>
-		<original_hash version='3.2.6'>b1674b6ce1239972c0d607f92601d41e</original_hash>
+		<filename>./core/protected/extensions/umber/assets/images/altpayments/cayan.png</filename>
+		<original_hash version='3.2.7'>abf962753db8d79be51ca6eee1d0ce9d</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/extensions/MissingMessages/MissingMessages.php</filename>
-		<original_hash version='3.2.6'>3665d5991409ce849ce43dc048e5c484</original_hash>
-		<original_hash version='3.2.5'>33a2afbcb307ad884966de355cc9c6f7</original_hash>
+		<filename>./core/protected/extensions/umber/assets/modal-1.0.2.css</filename>
+		<original_hash version='3.2.7'>c6dfffa2ede85a8a2215d312d50b1b60</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/extensions/umber/assets/modal-1.0.0.css</filename>
-		<original_hash version='3.2.6'>e052badea0e7a6a7c57c9329ccd5aae3</original_hash>
+		<filename>./core/protected/extensions/umber/assets/wsmodal.js</filename>
+		<original_hash version='3.2.7'>0b5043c9de339326d63a67b73d6ece6e</original_hash>
+		<original_hash version='3.2.6'>1f6549f8c1fa462cf14c3516cec89421</original_hash>
+		<original_hash version='3.2.4'>eb03584ad3a3524e07f87f397483777b</original_hash>
+		<original_hash version='3.2.3'>3ac4b276e5c98fbbea5e96423796af47</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/extensions/umber/assets/modal-1.0.1.css</filename>
-		<original_hash version='3.2.6'>967c9da85a2725b55a2101b54e9d65a8</original_hash>
+		<filename>./core/protected/extensions/umber/assetsToCompile/customized/_base.scss</filename>
+		<original_hash version='3.2.7'>24cb0f610b67394b36107e2b2c8bb97f</original_hash>
+		<original_hash version='3.2.6'>5d974aff791da134210e07781bedea19</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/extensions/umber/assetsToCompile/mixins/_box-shadow.scss</filename>
-		<original_hash version='3.2.6'>c29524763bd1b60b2e33c5991adff02f</original_hash>
+		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_address_blocks.scss</filename>
+		<original_hash version='3.2.7'>1a42bf3844e7709364194efa705346c1</original_hash>
+		<original_hash version='3.2.6'>78afdac748c301096a4fbe42f6ebee48</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
 		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_basic_modal.scss</filename>
+		<original_hash version='3.2.7'>a6a2a9c8e21b29943e9adce882909188</original_hash>
 		<original_hash version='3.2.6'>06e50b97562cbd38c7950ca78486dbc4</original_hash>
 		<original_hash version='3.2.5'>81ff2bf4b6b8beff55e864631833d8d3</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_browsers_unistyle.scss</filename>
-		<original_hash version='3.2.6'>f54c59f0c72d161f609101362dd277d4</original_hash>
-		<original_hash version='3.2.5'>1a293055b66454e7730ec811ff8c953b</original_hash>
-		<action>replace</action>
-		<status>critical</status>
-	</item>
-	<item>
-		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_cart.scss</filename>
-		<original_hash version='3.2.6'>b4eee943866b5689bc6669f97eb234d2</original_hash>
-		<original_hash version='3.2.5'>3571c3e95723126e9e2db26515aa2aac</original_hash>
-		<action>replace</action>
-		<status>critical</status>
-	</item>
-	<item>
 		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_cartadd.scss</filename>
+		<original_hash version='3.2.7'>d2873844ba388057dfaab77e77dea110</original_hash>
 		<original_hash version='3.2.6'>d55c8ef018a96fc8ae118ad692a195cc</original_hash>
 		<original_hash version='3.2.5'>77682dd74ecfb95fca54b8e0ec433e00</original_hash>
 		<action>replace</action>
@@ -320,48 +307,38 @@
 	</item>
 	<item>
 		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_checkout.scss</filename>
+		<original_hash version='3.2.7'>983ba79da0bd0aad04e14debf020367b</original_hash>
 		<original_hash version='3.2.6'>e88bfa9861bfca06db50f5db2ad44334</original_hash>
 		<original_hash version='3.2.5'>8eaabd70c2b7f773150ccad67a703a04</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_checkout_confirm.scss</filename>
-		<original_hash version='3.2.6'>9f377c2036daa6e8be9331b931e5d97a</original_hash>
-		<original_hash version='3.2.5'>24fda04b0ccdb2ff933e038c37bbf546</original_hash>
-		<action>replace</action>
-		<status>critical</status>
-	</item>
-	<item>
 		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_checkout_forms.scss</filename>
+		<original_hash version='3.2.7'>73d166df4610dc6fdafc71df8608f7f9</original_hash>
 		<original_hash version='3.2.6'>e725094f5448e5a16b4323d50dcc1c06</original_hash>
 		<original_hash version='3.2.5'>a28db9debe0764f3af8fcdf8e0889c02</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_checkout_payment.scss</filename>
-		<original_hash version='3.2.6'>2601360bdf489cb1f170d47010b58778</original_hash>
-		<original_hash version='3.2.5'>d52f2924b4eea28863802b9877f37845</original_hash>
-		<action>replace</action>
-		<status>critical</status>
-	</item>
-	<item>
 		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_checkout_shipping.scss</filename>
+		<original_hash version='3.2.7'>5fae1b502d2c8400fe4eb68d3f39fc58</original_hash>
 		<original_hash version='3.2.6'>015391a0b6e81de414f659110545fb45</original_hash>
 		<original_hash version='3.2.5'>463d3275bcfbc814dd1a7c7ab51a7b79</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_checkout_sidebar.scss</filename>
-		<original_hash version='3.2.6'>4eaebc87b120ef765cecd7eef9c68c62</original_hash>
-		<original_hash version='3.2.5'>b5de6749f14e26594557fc2e56701fb6</original_hash>
+		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_checkout_thankyou.scss</filename>
+		<original_hash version='3.2.7'>868e23813a4283c1728ee9edc8a6e42a</original_hash>
+		<original_hash version='3.2.6'>74f7d04620679f4147a39086d8fc3c66</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
 		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_config.scss</filename>
+		<original_hash version='3.2.7'>6606f0b4ca900340ffecc58241c4c1fd</original_hash>
 		<original_hash version='3.2.6'>2469d3b29db4979709ae5fa35910bcf1</original_hash>
 		<original_hash version='3.2.5'>c32b85edcdf7884f7193c0f573173f1e</original_hash>
 		<action>replace</action>
@@ -369,6 +346,7 @@
 	</item>
 	<item>
 		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_estimator.scss</filename>
+		<original_hash version='3.2.7'>15ddae07e6735f5deb4083af4404e050</original_hash>
 		<original_hash version='3.2.6'>313178c1b3d4bb02acbf0904837eab94</original_hash>
 		<original_hash version='3.2.5'>093a3e92381f782a514cf9a3887e8fa1</original_hash>
 		<action>replace</action>
@@ -376,6 +354,7 @@
 	</item>
 	<item>
 		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_modal_overlay_shared.scss</filename>
+		<original_hash version='3.2.7'>e648bbe743321e7dbdea5a76fc81111f</original_hash>
 		<original_hash version='3.2.6'>6a6832b002054f131763483199154754</original_hash>
 		<original_hash version='3.2.5'>82dc3a1c4888e8092fd0eacf00429ab9</original_hash>
 		<action>replace</action>
@@ -383,6 +362,7 @@
 	</item>
 	<item>
 		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_overlay.scss</filename>
+		<original_hash version='3.2.7'>6f8c32b8554919be27af545db56e242a</original_hash>
 		<original_hash version='3.2.6'>4ae16948585a5b8042bba112a0e7dca2</original_hash>
 		<original_hash version='3.2.5'>591fd4c68f7acacade43e5a7603bdf9c</original_hash>
 		<action>replace</action>
@@ -390,40 +370,29 @@
 	</item>
 	<item>
 		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_override_legacy.scss</filename>
+		<original_hash version='3.2.7'>b24ec8be9cadeb4046850a527a6bc275</original_hash>
 		<original_hash version='3.2.6'>b90b72f0fd45b32ab9c04b1a8ffae394</original_hash>
 		<original_hash version='3.2.5'>6064a492983672c90cdf99fe92c800da</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_promo.scss</filename>
-		<original_hash version='3.2.6'>be00236cbfb048d3dc69a219bd1af6ef</original_hash>
-		<original_hash version='3.2.5'>c44d96ab60b7fb9574620a90272844db</original_hash>
-		<action>replace</action>
-		<status>critical</status>
-	</item>
-	<item>
-		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_spinner.scss</filename>
-		<original_hash version='3.2.6'>0f71ed1987eb41f241ff0e423744434f</original_hash>
-		<original_hash version='3.2.5'>fb0157bcd6881728655944c99fab612e</original_hash>
-		<action>replace</action>
-		<status>critical</status>
-	</item>
-	<item>
-		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_tooltip</filename>
-		<original_hash version='3.2.6'>24db9699cf33e9a49956fa7795b19159</original_hash>
-		<original_hash version='3.2.5'>bf02bdec49eb00b658e695c1105cc789</original_hash>
+		<filename>./core/protected/extensions/umber/assetsToCompile/modal/_overview.scss</filename>
+		<original_hash version='3.2.7'>422e02d2de92240ec53a40745c5566cd</original_hash>
+		<original_hash version='3.2.6'>7efcc2f5f411945990b298afb6f5b4e7</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
 		<filename>./core/protected/extensions/umber/assetsToCompile/modal/modal-dev.scss</filename>
+		<original_hash version='3.2.7'>a26241c39e8bdc239c8d6e9dd5484367</original_hash>
 		<original_hash version='3.2.6'>2249fc3e905a79124382c8833ace27ea</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
 		<filename>./core/protected/extensions/umber/wsmodal.php</filename>
+		<original_hash version='3.2.7'>078848f360344dc2351480fd0786203d</original_hash>
 		<original_hash version='3.2.6'>51c0fd788aa77417aaf683fa746e7639</original_hash>
 		<original_hash version='3.2.5'>1fdd075be3fbc54b0c421402d1314baf</original_hash>
 		<original_hash version='3.2.3'>3063eeefc80a9a853e8c3a73d4793f52</original_hash>
@@ -431,60 +400,137 @@
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/extensions/wsaccesswarning/assets/css/wsaccesswarning.css</filename>
-		<original_hash version='3.2.6'>ff1318ac120b528f38bff4be044f0fd3</original_hash>
-		<original_hash version='3.2.5'>1e3c1c38ebd46a5d5d1669da984d5b6e</original_hash>
-		<original_hash version='3.1.12'>964ee00605077d8038a036331f6e798c</original_hash>
+		<filename>./core/protected/extensions/wsaccount/assets/Address.js</filename>
+		<original_hash version='3.2.7'>e6ab6ab02811f1e1b5a5a74ecd415a71</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/extensions/wsamazon/wsamazon.php</filename>
-		<original_hash version='3.2.6'>fc97a093381ed23aefd2e4d92083356e</original_hash>
-		<original_hash version='3.2.5'>b780da23a81daac3cfb4075c0ef4d514</original_hash>
-		<original_hash version='3.1.12'>aee5954195b8d6cd97bce9e96095d93c</original_hash>
-		<original_hash version='3.1.5'>083207869fe17a2de82f5f8d420b3767</original_hash>
-		<original_hash version='3.0.7'>29630430f0b395e419656fc8fbf05cc6</original_hash>
-		<original_hash version='3.0.1'>cd2886540728f124899056b4735c7c1b</original_hash>
-		<original_hash version='3.0.0.1'>d3af697ba584d7a73241c8c75c6d13c7</original_hash>
+		<filename>./core/protected/extensions/wsaccount/assets/Helper.js</filename>
+		<original_hash version='3.2.7'>8bf045c99abacf5e917050a15908f9e3</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/extensions/wscartmodal/wseditcartmodal.php</filename>
-		<original_hash version='3.2.6'>54cc1f1762f174136799a7b02fbaf9e8</original_hash>
-		<original_hash version='3.2.5'>89026f9f352f0434097fa51f18329b95</original_hash>
-		<original_hash version='3.2.3'>63b5454fbb08a89be4fda05a87054e97</original_hash>
+		<filename>./core/protected/extensions/wsaccount/assets/Password.js</filename>
+		<original_hash version='3.2.7'>f6146fbf5116b0db34398b31d56dbd36</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/extensions/wsmenu/wsmatrixselector.php</filename>
-		<original_hash version='3.2.6'>80be691e47eee06762a4e76154532c74</original_hash>
-		<original_hash version='3.2.5'>e2f5aba578c537b4df3d5388853e7ca7</original_hash>
+		<filename>./core/protected/extensions/wsaccount/assets/Profile.js</filename>
+		<original_hash version='3.2.7'>a27ac7e10cc6e2efe51152baef04d685</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/migrations/m150326_184349_WS_500_update_france_departments.php</filename>
-		<original_hash version='3.2.6'>610e13d65d8d54d4ed2ed2b64814f300</original_hash>
+		<filename>./core/protected/extensions/wsaccount/wsaccount.php</filename>
+		<original_hash version='3.2.7'>44903db90de6f778e67d037cac236634</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/migrations/m150406_180022_WS_448_remove_default_language_option_from_admin_panel.php</filename>
-		<original_hash version='3.2.6'>0dd88eb5deab009a573848386e96d8ee</original_hash>
+		<filename>./core/protected/extensions/wsadvcheckout/assets/checkout.js</filename>
+		<original_hash version='3.2.7'>ac33efdab65f3deb49f7ab40701859ee</original_hash>
+		<original_hash version='3.2.6'>fa0824537141f64cde6d4b3ca3f0ea12</original_hash>
+		<original_hash version='3.2.3'>4e2d598ea9acef3cd803ccdb34c0aa3b</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/migrations/m150408_134939_WS_448_add_en_to_default_language_list.php</filename>
-		<original_hash version='3.2.6'>f985dc087390cae1c31f5401e0533c31</original_hash>
+		<filename>./core/protected/extensions/wsadvcheckout/assets/index.js</filename>
+		<original_hash version='3.2.7'>47eed104e327c30d1dfde9535bffcb52</original_hash>
+		<original_hash version='3.2.6'>76a661ab8da16abe62667c1c150f2e0d</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/extensions/wsadvcheckout/assets/shipping.js</filename>
+		<original_hash version='3.2.7'>ee6081c86c097aacebc282d1a2b269b8</original_hash>
+		<original_hash version='3.2.6'>ed7c2a5e6551eeb71302e6d41c27d70e</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/extensions/wscartmodal/views/editcartmodal.php</filename>
+		<original_hash version='3.2.7'>6195a6cb565baa46a47cde6eefaf2bc6</original_hash>
+		<original_hash version='3.2.6'>37544debbcc164eb8765860a65a2dad5</original_hash>
+		<original_hash version='3.2.3'>5a293f0a2cc89954f8bf5254b3034482</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/extensions/wscloud/wscloud.php</filename>
+		<original_hash version='3.2.7'>1dc8a38e9f5550d39be61f6df435325b</original_hash>
+		<original_hash version='3.2.6'>08a757ad4e3c2b8691496ff1b5654893</original_hash>
+		<original_hash version='3.1.12'>454d08e46250e5bc8940b89b97a1855f</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/extensions/wspayment/cayan/cayan.php</filename>
+		<original_hash version='3.2.7'>3579153558d0b16af12a98ac17039596</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/extensions/wspayment/cayan/models/cayanAdminForm.php</filename>
+		<original_hash version='3.2.7'>d16ac1530e4b7a9f44caa327b43523bd</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/extensions/wspayment/cayan/models/cayanConfigForm.php</filename>
+		<original_hash version='3.2.7'>13030a6f2910724eee401e691d78c765</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/extensions/wspayment/WsPayment.php</filename>
+		<original_hash version='3.2.7'>2a0fc3a1c153af5078e2096e57bf6b8b</original_hash>
+		<original_hash version='3.2.6'>69ad43925fb7b1727670b49ef00c502d</original_hash>
+		<original_hash version='3.2.4'>24e4ca68804f009f283fe8d45c8b05b9</original_hash>
+		<original_hash version='3.1.12'>e2494854ef852418e475b90d54769adb</original_hash>
+		<original_hash version='3.0.7'>55d3463795b324c472070351600903ec</original_hash>
+		<original_hash version='3.0.5'>be69cfe3f625850b043ce2fdcc1913fa</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/extensions/wsshippingestimator/views/_shippingestimator.php</filename>
+		<original_hash version='3.2.7'>02ed521971ddcf47cffefacea68e5928</original_hash>
+		<original_hash version='3.2.6'>e3fbb515f48ab715a3cd7a3e846fd9fa</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/migrations/legacy/m140429_224114_update_configuration.php</filename>
+		<original_hash version='3.2.7'>5ff5667a1e1dd59e97009b249fa8e747</original_hash>
+		<original_hash version='3.2.6'>0d5bf80e19a925ceee80800a8a8bcd5e</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/migrations/m150421_202650_WS_4071_disable_php_customization.php</filename>
+		<original_hash version='3.2.7'>7bd7677bfc6bdb8849104f26c8b51aff</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/migrations/m150429_161521_WS_4070_disable_advanced_payment.php</filename>
+		<original_hash version='3.2.7'>14e48ef55b7fd3853259c0368bd83814</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/migrations/m150507_141744_WS_4074_disable_old_themes.php</filename>
+		<original_hash version='3.2.7'>350ef7ac41d6063cb652a7f20e44a854</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
 		<filename>./core/protected/models/Cart.php</filename>
+		<original_hash version='3.2.7'>e2caec05a9011da00ff417a028e41e7c</original_hash>
 		<original_hash version='3.2.6'>3474c18974004c89cccdac599238d3ba</original_hash>
 		<original_hash version='3.2.5'>354f8956deddb22a6aec38b5e89df800</original_hash>
 		<original_hash version='3.2.4'>36be786b07cdcdae23490e99f955a65d</original_hash>
@@ -503,6 +549,7 @@
 	</item>
 	<item>
 		<filename>./core/protected/models/Category.php</filename>
+		<original_hash version='3.2.7'>7f606ff4198c32c457fee0f1a3f61280</original_hash>
 		<original_hash version='3.2.6'>47664526a34b2bb9126f46f9b100d9d6</original_hash>
 		<original_hash version='3.2.5'>08b5b7f793bcc42c3bb9e89478f06aec</original_hash>
 		<original_hash version='3.1.12'>5707863e15cabc211b09084adf04445b</original_hash>
@@ -517,29 +564,8 @@
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/models/Classes.php</filename>
-		<original_hash version='3.2.6'>def32fdf130c8db0d7fd25c972f22a72</original_hash>
-		<original_hash version='3.2.5'>7ffe13c8c6d82c383d23de60d17f09f0</original_hash>
-		<original_hash version='3.0.0.1'>921ee5f39f0f9e1b4e49a8ddd837d980</original_hash>
-		<action>replace</action>
-		<status>critical</status>
-	</item>
-	<item>
-		<filename>./core/protected/models/Configuration.php</filename>
-		<original_hash version='3.2.6'>a9a11a30327c39b59d8ad7c4792c7727</original_hash>
-		<original_hash version='3.2.5'>c32e4bcee9c4b349cb2934833d944873</original_hash>
-		<original_hash version='3.2.3'>fcacb396b5896be36b64878ef6b0775d</original_hash>
-		<original_hash version='3.1.12'>932e780921330f83b2d957a3ff0c8e2c</original_hash>
-		<original_hash version='3.1.4'>caecbf30ea99d1c5d1b0ee3bb11a4e5e</original_hash>
-		<original_hash version='3.0.7'>4ab95ace98b19831df3ff4e6a18e300d</original_hash>
-		<original_hash version='3.0.5'>fecd047cf780e077ed164c1dfbaf4a4a</original_hash>
-		<original_hash version='3.0.4'>e0d71d54263e83e1f0b7ba124503bf7b</original_hash>
-		<original_hash version='3.0.0.1'>8a32e64596f798a5f176d794630dc918</original_hash>
-		<action>replace</action>
-		<status>critical</status>
-	</item>
-	<item>
 		<filename>./core/protected/models/Customer.php</filename>
+		<original_hash version='3.2.7'>0163da0e447fb93a6e4a8208b71f14e0</original_hash>
 		<original_hash version='3.2.6'>035be2f334584e494185cc7b49488968</original_hash>
 		<original_hash version='3.2.5'>ee355b99a14e54f35bbc0584ac697ed8</original_hash>
 		<original_hash version='3.2.4'>bddbd52c31ab9c54a5d4eeb410e96c52</original_hash>
@@ -556,6 +582,7 @@
 	</item>
 	<item>
 		<filename>./core/protected/models/CustomerAddress.php</filename>
+		<original_hash version='3.2.7'>b9781740671daf76ba4385ea4a559bec</original_hash>
 		<original_hash version='3.2.6'>28d5f331fc855f0cef4fb677f8981fea</original_hash>
 		<original_hash version='3.2.5'>7ca4f44793b3a7601c59f7dc5c181fe3</original_hash>
 		<original_hash version='3.1.12'>5cb3f0a2b17f4e599f20fb6d106c6da6</original_hash>
@@ -565,17 +592,8 @@
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/models/CustomPage.php</filename>
-		<original_hash version='3.2.6'>589976fc8eb573d5240c075a243ad597</original_hash>
-		<original_hash version='3.2.5'>296e22de89b79b7e86786c3341f3a807</original_hash>
-		<original_hash version='3.1.12'>75109cf8fd8824986b8171aebbaf6d76</original_hash>
-		<original_hash version='3.1.5'>7af3ec51d51d64612e783f40acd5e8a7</original_hash>
-		<original_hash version='3.0.7'>7d387780689c5d3560f7d7e21b81dccb</original_hash>
-		<action>replace</action>
-		<status>critical</status>
-	</item>
-	<item>
 		<filename>./core/protected/models/Family.php</filename>
+		<original_hash version='3.2.7'>0872ba81b041ca1ecf3be7eba312963e</original_hash>
 		<original_hash version='3.2.6'>4168106b519059edf305b37d72e8ba77</original_hash>
 		<original_hash version='3.2.5'>9806e2d6eb0030fb953097fcd5ee1162</original_hash>
 		<original_hash version='3.2.2'>02a235ba22351bcd7737bb536145d17a</original_hash>
@@ -588,7 +606,16 @@
 		<status>critical</status>
 	</item>
 	<item>
+		<filename>./core/protected/models/forms/BaseAdvancedSearchForm.php</filename>
+		<original_hash version='3.2.7'>3f97bdaa7da0c8d785779c6a77d7326b</original_hash>
+		<original_hash version='3.2.6'>3957de34d674431562d9018bf8c165d0</original_hash>
+		<original_hash version='3.0.7'>a47662a9c984e32769903c10638a2f98</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
 		<filename>./core/protected/models/forms/BaseCheckoutForm.php</filename>
+		<original_hash version='3.2.7'>5627e53440c0f6f58edb4c3c6940bd19</original_hash>
 		<original_hash version='3.2.6'>b88797bdc0808167b49260322606f6d2</original_hash>
 		<original_hash version='3.2.5'>68c22199097560a6bfe514f40405b9c4</original_hash>
 		<original_hash version='3.1.12'>a2bbc17b422cd04ee38f53af65ed52eb</original_hash>
@@ -600,94 +627,399 @@
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/models/forms/ThemeForm.php</filename>
-		<original_hash version='3.2.6'>0af6e1c8a68b1a8f9cea443b9bd581e2</original_hash>
-		<original_hash version='3.2.5'>722f0f1372e48172b2306892741e20d4</original_hash>
-		<original_hash version='3.1.12'>61879f8d7b0d6cfdd35f487f3f930715</original_hash>
+		<filename>./core/protected/models/forms/ContactForm.php</filename>
+		<original_hash version='3.2.7'>e87e31d4e5a8e1397cb636faf36adf48</original_hash>
+		<original_hash version='3.2.6'>e9b9d57f243e13dbadfc17b370c38530</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/models/Product.php</filename>
-		<original_hash version='3.2.6'>a51eb81d198ca06fb2d7dbdcd0ceb6a2</original_hash>
-		<original_hash version='3.2.5'>883791c402fcc3d5ea6ee7b736b50e55</original_hash>
-		<original_hash version='3.2.4'>9c4cf6146aeee13a717e6e646f5be5b7</original_hash>
-		<original_hash version='3.2.2'>808fd6adf52d1c369cdbed4f50f85743</original_hash>
-		<original_hash version='3.1.12'>775e6f77d384610a587aabeb5c715866</original_hash>
-		<original_hash version='3.1.10'>6fbc986a2ba255f47f9ce1138b96b85f</original_hash>
-		<original_hash version='3.1.8'>ab016f221e9abfed242f2a6e0832ac33</original_hash>
-		<original_hash version='3.1.7'>326c06d92fac05475bed9a5aa77972d5</original_hash>
-		<original_hash version='3.1.6'>d0de8e764f108359b431084ab43014c8</original_hash>
-		<original_hash version='3.0.7'>73e01211522550d809ea650864590827</original_hash>
-		<original_hash version='3.0.5'>cf5dca80f3f3417cdef4d46bc417e7d9</original_hash>
-		<original_hash version='3.0.3'>5476b324c7027a54b726b6e9af3c96de</original_hash>
-		<original_hash version='3.0.2'>58db9dbcff7dd44069af5f5b9acc5d53</original_hash>
-		<original_hash version='3.0.0.1'>3511c1810e5e7ba2ae37c24fe53c1885</original_hash>
+		<filename>./core/protected/models/forms/LoginForm.php</filename>
+		<original_hash version='3.2.7'>1536c6a06d91009afaf06163dcaebc6f</original_hash>
+		<original_hash version='3.2.6'>f29bd4dcc5cd89432490aea44ed77a72</original_hash>
+		<original_hash version='3.2.4'>e1ef022d6306bd5f5d7af3f257851544</original_hash>
+		<original_hash version='3.1.12'>9a37aa638fe5828b03af7e0ef6c78bd0</original_hash>
+		<original_hash version='3.0.7'>16416c75131f47c90decaef8af492fb3</original_hash>
+		<original_hash version='3.0.5'>1fe44c9292638907546df276ea6487bb</original_hash>
+		<original_hash version='3.0.0.1'>8a53bfc5ffe4236633b5b132b9fbe4d2</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/modules/admin/controllers/DatabaseadminController.php</filename>
-		<original_hash version='3.2.6'>95fccf2412efaf2b0c3a71a2fb961bcd</original_hash>
-		<original_hash version='3.2.5'>eefd92909a42a57844ec5c90aa393afd</original_hash>
-		<original_hash version='3.1.9'>eb2ee429291a4c1ce78abd21c8a49ab1</original_hash>
-		<original_hash version='3.1.7'>cd8cbd4dc23de80cd90518dc5f8d04da</original_hash>
-		<original_hash version='3.1.4'>6e8a1fb81f819fb502546155b1cbaa36</original_hash>
-		<original_hash version='3.0.7'>db2f91a0ce28f5cba78c45615972f756</original_hash>
-		<original_hash version='3.0.5'>ab0aabcd8d9924d1e55b5620a33d8e00</original_hash>
-		<original_hash version='3.0.0.1'>8051682944fdd30c0981d72860354139</original_hash>
+		<filename>./core/protected/models/forms/MultiCheckoutForm.php</filename>
+		<original_hash version='3.2.7'>41b0dce4bf8af11a0bf10f8b37c6480f</original_hash>
+		<original_hash version='3.2.6'>7ae4c802bffa81778fff1fbc5deee988</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/modules/admin/views/default/edit.php</filename>
-		<original_hash version='3.2.6'>1712657d70d171e55e96154c02a661b4</original_hash>
-		<original_hash version='3.2.5'>ba1a17ebf88fe960f271382e8a349bd0</original_hash>
-		<original_hash version='3.0.5'>d00c02a0622f487ced5d4e33186885e4</original_hash>
+		<filename>./core/protected/models/forms/ShareForm.php</filename>
+		<original_hash version='3.2.7'>6cc31d20ec00b61789ed50334cc6bde4</original_hash>
+		<original_hash version='3.2.6'>0ec9c5672e000e2017a449a2b2aa55db</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/modules/admin/views/layouts/main.php</filename>
-		<original_hash version='3.2.6'>f43bf3ac724e4b7ccf48f9c633dade5e</original_hash>
-		<original_hash version='3.2.5'>be5c944f8845abc5b13420139f2c00aa</original_hash>
-		<original_hash version='3.2.3'>db05ba004737a1c7c6f2cad793880fe0</original_hash>
-		<original_hash version='3.1.12'>b6411eddfcc4289f4723c05536aa6e19</original_hash>
-		<original_hash version='3.1.6'>28551a51c662592e5d0a6b19242f4653</original_hash>
-		<original_hash version='3.0.7'>65dcfeade3f55581d0865a1b5d001252</original_hash>
+		<filename>./core/protected/models/forms/WishlistEditForm.php</filename>
+		<original_hash version='3.2.7'>fd1571df659053a2938a1451c9f9e783</original_hash>
+		<original_hash version='3.2.6'>6b50992602bf78b0e474cc82cf03c35c</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/views-cities/cart/_googleconversion.php</filename>
-		<original_hash version='3.2.6'>ecb871a17d471b3a88f7326cb8201765</original_hash>
-		<original_hash version='3.2.5'>7a0023d44d205191bde9ee548ad0a572</original_hash>
+		<filename>./core/protected/modules/admin/assets/css/admin.css</filename>
+		<original_hash version='3.2.7'>8aadc6bdf491db6ff966671a923cc4fd</original_hash>
+		<original_hash version='3.2.6'>ff9027ffca3426eb6d0b5a3ca14b1df9</original_hash>
+		<original_hash version='3.1.12'>d2e91636a4f8e363eee4da595c0b7bfb</original_hash>
+		<original_hash version='3.1.5'>d48eacebd2818d97fcf9bdc255b31db3</original_hash>
+		<original_hash version='3.1.4'>157d40543f1eeddbb546a7c7b53814b2</original_hash>
+		<original_hash version='3.0.7'>82732fc148a0ae4d5350e78c7837173e</original_hash>
+		<original_hash version='3.0.6'>582f2d8c7d4b6a7460aad436940e0038</original_hash>
+		<original_hash version='3.0.0.1'>1499c37dc7a74a7128bfa6d0672d9cbb</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/views-cities2/cart/_googleconversion.php</filename>
-		<original_hash version='3.2.6'>ecb871a17d471b3a88f7326cb8201765</original_hash>
-		<original_hash version='3.2.5'>7a0023d44d205191bde9ee548ad0a572</original_hash>
+		<filename>./core/protected/modules/admin/assets/css/cayan.css</filename>
+		<original_hash version='3.2.7'>c10cbf300cf7aa2a2f04b94234bc978a</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/modules/admin/assets/js/cayan.js</filename>
+		<original_hash version='3.2.7'>6ec5952064e46afc7492299ee3d57bb6</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/modules/admin/components/AdminBaseController.php</filename>
+		<original_hash version='3.2.7'>e7cee510d30bdecafa3304163a3ee95f</original_hash>
+		<original_hash version='3.2.6'>82776443445ba4105f0046ba686c4bd2</original_hash>
+		<original_hash version='3.2.3'>26ba9c3bbe256b0390db3faaa70c7a2d</original_hash>
+		<original_hash version='3.1.12'>66a1add35947e75475db117cca3d549a</original_hash>
+		<original_hash version='3.1.10'>bd1b77347f145736286bd69d73b50224</original_hash>
+		<original_hash version='3.1.4'>0e2385da10d09917707c4ff8f9d8d44f</original_hash>
+		<original_hash version='3.0.7'>ed524b97fd3b9819bab2c6b6799e67e8</original_hash>
+		<original_hash version='3.0.5'>087a95b8f57cf1b5e3da69f62ee062ba</original_hash>
+		<original_hash version='3.0.4'>629660a5978a80ac206dd1010c847d56</original_hash>
+		<original_hash version='3.0.0.1'>69e57b571bf1754c5b0db069ffb7cf73</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/modules/admin/controllers/DefaultController.php</filename>
+		<original_hash version='3.2.7'>24d0b27217f3238c615a48b53cec2ffe</original_hash>
+		<original_hash version='3.2.6'>c73f2242f0d15b3d74ae55e4ab4e4239</original_hash>
+		<original_hash version='3.1.12'>4ffd7fc7febbd8d05d730a43770ee35c</original_hash>
+		<original_hash version='3.1.10'>4af554e9ef17b8461943bc9114d7b061</original_hash>
+		<original_hash version='3.1.8'>79d6175660ea33c9ea63d5405a121b03</original_hash>
+		<original_hash version='3.1.6'>3836490aa1c1bd44355d9feeb742aca5</original_hash>
+		<original_hash version='3.1.5'>f86a4e1855b233374e57eaeefe7ed222</original_hash>
+		<original_hash version='3.1.4'>ce01854d97fed8a286aeefe6f34fa0e0</original_hash>
+		<original_hash version='3.0.7'>2c3993b969cea1ab5d14be0e216bb214</original_hash>
+		<original_hash version='3.0.6'>cae25838198bf1df8f04615f4a40efb9</original_hash>
+		<original_hash version='3.0.4'>3b8e212d5447021259f15d4648d53266</original_hash>
+		<original_hash version='3.0.2'>c1ed0237478c0b617e39cf75b56a7378</original_hash>
+		<original_hash version='3.0.0.1'>b8d296b2d8c2389de000b169fb389d2b</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/modules/admin/controllers/LicenseController.php</filename>
+		<original_hash version='3.2.7'>5459d84ab384fad6573f1cee8017cfbc</original_hash>
+		<original_hash version='3.2.6'>d8a7d61c6f6bce32afcfd768fb641a0e</original_hash>
+		<original_hash version='3.0.7'>976797b42b07c74b46ed09a2dc8d41bd</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/modules/admin/controllers/PaymentsController.php</filename>
+		<original_hash version='3.2.7'>7d4618a42b5cb2cff8f40e5c8d0e17cf</original_hash>
+		<original_hash version='3.2.6'>997023fa7b0acefd7a258b37daaf85a8</original_hash>
+		<original_hash version='3.1.5'>4597879865fb949a35db953f094c3a8a</original_hash>
+		<original_hash version='3.0.7'>8d0d030f2b10ccd3580c4ec99c14ad7c</original_hash>
+		<original_hash version='3.0.5'>ba1fc13009cd20d13f0ca20e5d8940c3</original_hash>
+		<original_hash version='3.0.0.1'>7a8e315e94fd3d7b079a1705e7baf8cd</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/modules/admin/controllers/ThemeController.php</filename>
+		<original_hash version='3.2.7'>ffbdc7cc1906a9c6387687fffc2fcacd</original_hash>
+		<original_hash version='3.2.6'>1bda66d78b690b0390d119f544c2b9fb</original_hash>
+		<original_hash version='3.2.4'>8df867e0abdd0fda491dfb50e48cfa48</original_hash>
+		<original_hash version='3.1.12'>d72512fe213649cc168fb91be9e197b0</original_hash>
+		<original_hash version='3.1.10'>10e21d5b71f120b83a975df6f84418b1</original_hash>
+		<original_hash version='3.1.9'>a1187ad53968c035d591f1cc569a52e7</original_hash>
+		<original_hash version='3.1.8'>c0881aebec88085b92b83c9369df1db4</original_hash>
+		<original_hash version='3.1.5'>c8aab9b95b13e37abf8e2e4b2952d22d</original_hash>
+		<original_hash version='3.1.4'>611f8dfa3a04ab6c827ecdf95869a0fc</original_hash>
+		<original_hash version='3.0.7'>c4a928532e0df65b5141274d3b5c14a0</original_hash>
+		<original_hash version='3.0.3'>44bffd51f7a2992a19911bcad1206867</original_hash>
+		<original_hash version='3.0.0.1'>ae6440d1cb7f2ddaa43b4322690ca791</original_hash>
+		<original_hash version='3.0.0'>728dbef7a14801da9382e2f717ff0c66</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/modules/admin/models/InstallForm.php</filename>
+		<original_hash version='3.2.7'>7579632964aab389fdc74a0c33e4f1d5</original_hash>
+		<original_hash version='3.2.6'>adaa417e0dd948c6c13ccfe8f748a7f2</original_hash>
+		<original_hash version='3.1.12'>5e4a13d84e7b9cec207fc999d80f5274</original_hash>
+		<original_hash version='3.1.6'>68708f371c1747c15978467ffee25c87</original_hash>
+		<original_hash version='3.0.7'>119230101b0353225915c69702bd1eca</original_hash>
+		<original_hash version='3.0.5'>a8d176b8da8a8f33a14a48dbeccbc4ec</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/modules/admin/views/default/moduleedit.php</filename>
+		<original_hash version='3.2.7'>7c376e44b5908fe990623101bc0ba509</original_hash>
+		<original_hash version='3.2.6'>fd7210af3c1ca36772e91cb0ec8cd834</original_hash>
+		<original_hash version='3.1.12'>a78d45ae3a9e0042111f90072af7860f</original_hash>
+		<original_hash version='3.0.7'>01d29efd64d17db88f325c4977157833</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/modules/admin/views/payments/_cayanconfig.php</filename>
+		<original_hash version='3.2.7'>1b799640681156e5781ae80c5dc619e0</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/modules/admin/views/payments/_cayanpreview.php</filename>
+		<original_hash version='3.2.7'>63054d4d7cb08eb58af6f64b84d275a5</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/modules/admin/views/theme/manage.php</filename>
+		<original_hash version='3.2.7'>fc8f8d3062d5c9d9463ba6d399cb2ad8</original_hash>
+		<original_hash version='3.2.6'>ed7bc5c727e8830ea5217932cb0144af</original_hash>
+		<original_hash version='3.2.4'>bceab6f849a49384b3239cc5914386d2</original_hash>
+		<original_hash version='3.1.5'>5688d2837a4e0956f0c7de24ac521283</original_hash>
+		<original_hash version='3.0.7'>09947e5f5bf48aa2f0148bf6bb63cf2d</original_hash>
+		<original_hash version='3.0.0.1'>7b9730f40aac5f2cf8be6444e0d2310c</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/modules/integration/controllers/DefaultController.php</filename>
+		<original_hash version='3.2.7'>cdc995d0455c7af354f291182ca42570</original_hash>
+		<original_hash version='3.2.6'>f0b650ef566c09fbef098120eb7e9731</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities/cart/checkout.php</filename>
+		<original_hash version='3.2.7'>25bf4a1b5838f7aeb2f55ea3e36c69fb</original_hash>
+		<original_hash version='3.2.6'>b211051d90079737ad2d06bcce00df55</original_hash>
+		<original_hash version='3.1.12'>42cd2fe2c075033eb48d152d098a052d</original_hash>
+		<original_hash version='3.1.8'>a769d039b1031214e7ffd08541fe9fee</original_hash>
+		<original_hash version='3.1.4'>421eb621739ae7e35d05199654465ea7</original_hash>
+		<original_hash version='3.0.7'>562b33b66175257cfe1d66b917e3c257</original_hash>
+		<original_hash version='3.0.4'>131968c62f2256019cd7f1db8878c5ff</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities/custompage/contact.php</filename>
+		<original_hash version='3.2.7'>841f69e93e10ae445eb1604bd014885a</original_hash>
+		<original_hash version='3.2.6'>04b41db3f6986541fcb0a2cbc37ba2b9</original_hash>
+		<original_hash version='3.0.7'>7daa93391e3d99162c4f5dc56f5db25e</original_hash>
+		<original_hash version='3.0.0.1'>bb361d595ce9bf3623c97ae14145739e</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities/myaccount/address.php</filename>
+		<original_hash version='3.2.7'>5966d14e2cb969cc3e4a282e3a005674</original_hash>
+		<original_hash version='3.2.6'>8cf0d9b4cc4a4c7a10736792c17ba13d</original_hash>
+		<original_hash version='3.0.7'>9e09156d3c6bfd6b3f7092c6d9865105</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities/myaccount/edit.php</filename>
+		<original_hash version='3.2.7'>3f0172b1c7b6089196a021daa2678827</original_hash>
+		<original_hash version='3.2.6'>937ea94dfafbf8745ea0b97206612d57</original_hash>
+		<original_hash version='3.0.7'>81bb1e64fc4a8921c7e49c797063560d</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities/myaccount/password.php</filename>
+		<original_hash version='3.2.7'>6c1d1100492312cd9d8c82fbe51d4e2d</original_hash>
+		<original_hash version='3.2.6'>2294caae20754cfe9e4e5a1dfb5d9d19</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities/search/brands.php</filename>
+		<original_hash version='3.2.7'>a6bda75b605211503d8eca35a8a155a0</original_hash>
+		<original_hash version='3.2.6'>8ef0c51c240a8383fcd01bfb9d0ce293</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities/search/index.php</filename>
+		<original_hash version='3.2.7'>60d90cdb7fe8ba5d55abd98830440500</original_hash>
+		<original_hash version='3.2.6'>41fd62e4b57649b8a533e762bd6a8f29</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities/site/_search.php</filename>
+		<original_hash version='3.2.7'>22477a9708ee684ed5717578a62a77d5</original_hash>
+		<original_hash version='3.2.6'>98e00cce88342c4a9706bf59e21aa462</original_hash>
+		<original_hash version='3.0.7'>351ecac3bfb3c52dccdfba9b6f2d911c</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities/site/error.php</filename>
+		<original_hash version='3.2.7'>e7e568e801e07b3dac978932f526fa85</original_hash>
+		<original_hash version='3.2.6'>4e5ee2dfe2b33202c24f58eb999c4515</original_hash>
+		<original_hash version='3.0.0.1'>cac9e32667e45877e85aff9a6b9ba910</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities/site/login.php</filename>
+		<original_hash version='3.2.7'>09c1d5f287dbbde02aad2ca6e329b5b9</original_hash>
+		<original_hash version='3.2.6'>684e9b09de7f9e94a6b70145dec01ba9</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities/wishlist/create.php</filename>
+		<original_hash version='3.2.7'>1331cc316a4cdacb37a4d285a41f3d6f</original_hash>
+		<original_hash version='3.2.6'>310cdb93c95fb57ff7d3f79db0f85f43</original_hash>
+		<original_hash version='3.1.12'>7d59f521ecb91a97bfc5bce6f60e7c3b</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities/wishlist/search.php</filename>
+		<original_hash version='3.2.7'>c512089406456edf3eaf5a847f6841b3</original_hash>
+		<original_hash version='3.2.6'>7666d8b040bbb220ee2d7281de9f9959</original_hash>
+		<original_hash version='3.1.4'>6332c171467aa736b5533d9fab3f28b4</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities2/cart/checkout.php</filename>
+		<original_hash version='3.2.7'>078f0f015486858630510255a410afaa</original_hash>
+		<original_hash version='3.2.6'>85414e539444d8afe3806485951cdc13</original_hash>
+		<original_hash version='3.1.12'>6a22037742291a62618d1617bc9c0315</original_hash>
+		<original_hash version='3.1.8'>d6d600bdd813082d0c2985f6fb4da6ae</original_hash>
+		<original_hash version='3.1.5'>413da112ea540cb1653cb1cce004f8cb</original_hash>
+		<original_hash version='3.1.4'>cad7698eb578b93237e2ae6987a0831a</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities2/cart/receipt.php</filename>
+		<original_hash version='3.2.7'>fae17f22192daf0efb67f3fb61dd60aa</original_hash>
+		<original_hash version='3.2.6'>e6c307531aca4a11b241a4f017a60bef</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities2/custompage/contact.php</filename>
+		<original_hash version='3.2.7'>aab3ee2f6110dfe400453170d85dd2d4</original_hash>
+		<original_hash version='3.2.6'>86ed2289c8ceef16730c73d40c5af6e5</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities2/myaccount/address.php</filename>
+		<original_hash version='3.2.7'>c53c690952d6ab893f068d73c6a45bf6</original_hash>
+		<original_hash version='3.2.6'>e4ef769a3607e363e9a6cdd6d91caa6d</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities2/myaccount/edit.php</filename>
+		<original_hash version='3.2.7'>c4071b594cc2601370147c57ec4b3dba</original_hash>
+		<original_hash version='3.2.6'>9d4e81d8abf11d073fd9e9e21483f527</original_hash>
+		<original_hash version='3.1.12'>5de3510d7afd706adbbbd2f5808fd903</original_hash>
+		<original_hash version='3.1.4'>12b9d97e5d9b2aef644c010901bf8f4d</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities2/myaccount/password.php</filename>
+		<original_hash version='3.2.7'>6c1d1100492312cd9d8c82fbe51d4e2d</original_hash>
+		<original_hash version='3.2.6'>2294caae20754cfe9e4e5a1dfb5d9d19</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities2/search/brands.php</filename>
+		<original_hash version='3.2.7'>5a4434de16eb88dcc50c9bef065eb074</original_hash>
+		<original_hash version='3.2.6'>8ef0c51c240a8383fcd01bfb9d0ce293</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities2/search/index.php</filename>
+		<original_hash version='3.2.7'>97eacf92243378e3bec89fceda9ce690</original_hash>
+		<original_hash version='3.2.6'>8f0a6523ac6794c4f44b8dd9630f6f43</original_hash>
+		<original_hash version='3.1.4'>a2ec8066bda7a17bfd0e6d712570827d</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities2/site/error.php</filename>
+		<original_hash version='3.2.7'>e7e568e801e07b3dac978932f526fa85</original_hash>
+		<original_hash version='3.2.6'>4e5ee2dfe2b33202c24f58eb999c4515</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities2/wishlist/create.php</filename>
+		<original_hash version='3.2.7'>7c17f2f10474ebfa773532bf38b5033e</original_hash>
+		<original_hash version='3.2.6'>312d40e022478b4289a32f50191e5d6b</original_hash>
+		<original_hash version='3.1.12'>e0b10d468e3ce4229734029cb0a1a684</original_hash>
+		<original_hash version='3.1.4'>92a08479c1931b19296a92a22da12494</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities2/wishlist/search.php</filename>
+		<original_hash version='3.2.7'>fd3ea9709645f1aa73d63f9f128a4659</original_hash>
+		<original_hash version='3.2.6'>d73780e2630e4f8d33ad45bf3bc1a251</original_hash>
+		<original_hash version='3.1.4'>a588cf1302b756bb3a3cba0b994aad55</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/checkout/_altpaymentmethods.php</filename>
+		<original_hash version='3.2.7'>a4c73645472016d150ed00d807e0a9ee</original_hash>
+		<original_hash version='3.2.6'>691ce60cd4e7165036664695fb25d0e1</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
 		<filename>./core/protected/views-cities3/checkout/_billingaddress.php</filename>
+		<original_hash version='3.2.7'>ce9934e144175943d3238a69ddbf62f6</original_hash>
 		<original_hash version='3.2.6'>e1e8033cfd41f73627334027812698b0</original_hash>
 		<original_hash version='3.2.5'>20e9a98ee2d13dfc653d049d7ffd58cd</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/views-cities3/checkout/_googleconversion.php</filename>
-		<original_hash version='3.2.6'>ecb871a17d471b3a88f7326cb8201765</original_hash>
-		<original_hash version='3.2.5'>7a0023d44d205191bde9ee548ad0a572</original_hash>
+		<filename>./core/protected/views-cities3/checkout/_finalizecart.php</filename>
+		<original_hash version='3.2.7'>076b84f637b2d9eac45c790bf58b861e</original_hash>
+		<original_hash version='3.2.6'>d4277b4b4d684e96c1443481b4d118f6</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
 		<filename>./core/protected/views-cities3/checkout/_paymentaddress.php</filename>
+		<original_hash version='3.2.7'>a4968b80d8e83135bea7e27e62645654</original_hash>
 		<original_hash version='3.2.6'>bc360ca1dea68951830383b13b3f1edc</original_hash>
 		<original_hash version='3.2.5'>176b68e9ba3fa713c353f000425fb702</original_hash>
 		<action>replace</action>
@@ -695,6 +1027,7 @@
 	</item>
 	<item>
 		<filename>./core/protected/views-cities3/checkout/_shippingaddress.php</filename>
+		<original_hash version='3.2.7'>4b17e390a05734f7b647fd9ffea41851</original_hash>
 		<original_hash version='3.2.6'>b2487180b5c2bf9b522c929b0cb32dd2</original_hash>
 		<original_hash version='3.2.5'>e34882ea592f89d9f0921fa16599bbe2</original_hash>
 		<action>replace</action>
@@ -702,48 +1035,269 @@
 	</item>
 	<item>
 		<filename>./core/protected/views-cities3/checkout/_storepickup.php</filename>
+		<original_hash version='3.2.7'>c95fba88608d091fd736adf0370f5029</original_hash>
 		<original_hash version='3.2.6'>31d590bb1bfe538fe45c30457d730afe</original_hash>
 		<original_hash version='3.2.5'>792979fc0e00ab22bdd1745b3304b666</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/views-cities3/checkout/confirmation.php</filename>
-		<original_hash version='3.2.6'>dd1701e105838657384768a2ec6dc52d</original_hash>
-		<original_hash version='3.2.5'>61bad86db3a7108e4bfe495c91b860ae</original_hash>
-		<original_hash version='3.2.3'>41ccb2214be296be5d52bd286257a9a7</original_hash>
+		<filename>./core/protected/views-cities3/checkout/editaddress.php</filename>
+		<original_hash version='3.2.7'>638290729291336c371d7e2e0e819c38</original_hash>
+		<original_hash version='3.2.6'>c1d978c4602149c403cda984e901ea86</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/views-cities3/site/_head.php</filename>
-		<original_hash version='3.2.6'>ce56d57adb505a0d6fa90ff246b19ae4</original_hash>
-		<original_hash version='3.2.5'>4043373244338c7256827a42b215c857</original_hash>
+		<filename>./core/protected/views-cities3/checkout/index.php</filename>
+		<original_hash version='3.2.7'>cf4515ea896ef59ef88cb309344be906</original_hash>
+		<original_hash version='3.2.6'>cbfbb7ad3f8be2d26e86a73dc41e0510</original_hash>
+		<original_hash version='3.2.3'>a64ba481d3a2a98654a6fc74e2467539</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
-		<filename>./core/protected/views-cities3/wishlist/_edititem.php</filename>
-		<original_hash version='3.2.6'>71ee7773c567d22e172d8d357a9e09ce</original_hash>
-		<original_hash version='3.2.5'>42c2dcb7419f3cafd01cf5cf76a20604</original_hash>
-		<original_hash version='3.2.4'>37f759ddaf0a86cf1f5fc967f39e6897</original_hash>
+		<filename>./core/protected/views-cities3/checkout/payment.php</filename>
+		<original_hash version='3.2.7'>755ea6d5626f555d292768c1275a6b8b</original_hash>
+		<original_hash version='3.2.6'>44e90c58e0030aaef1469c17d9932531</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/checkout/paymentaddress.php</filename>
+		<original_hash version='3.2.7'>63203766f096e149a1c8b2bf35ac51f8</original_hash>
+		<original_hash version='3.2.6'>448d6bfe0ae8f5aaa0dceb9100963efc</original_hash>
+		<original_hash version='3.2.3'>8c4c86e214694c5396333ee84166e77b</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/checkout/paymentsimpleaddress.php</filename>
+		<original_hash version='3.2.7'>3d1e9953f89b2c6bcc5c3f41d0d54ead</original_hash>
+		<original_hash version='3.2.6'>b9ed5f63010e23b5cf373ee57d83cf52</original_hash>
+		<original_hash version='3.2.3'>12f561f44def2aa45c6e6cf419db2600</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/checkout/shipping.php</filename>
+		<original_hash version='3.2.7'>9874889442abcc1271c80b3517ce3f61</original_hash>
+		<original_hash version='3.2.6'>1875c42af0ce2baba4a010313c9aa57c</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/checkout/shippingaddress.php</filename>
+		<original_hash version='3.2.7'>5df6ca67bf26f0aa372a7d49d1a936d4</original_hash>
+		<original_hash version='3.2.6'>b2c3d2a6eec757850e2d53dd61880278</original_hash>
+		<original_hash version='3.2.3'>54f0bf5ce31050ca16ddc679777361a9</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/checkout/shippingoptions.php</filename>
+		<original_hash version='3.2.7'>961977401d0bb84c081e188446e16dba</original_hash>
+		<original_hash version='3.2.6'>4a6499b0cfe8b4fa361d0a4eeccc0ca2</original_hash>
+		<original_hash version='3.2.3'>ed3d6c5bc5cdaddedf10ac783e6370ec</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/checkout/thankyou.php</filename>
+		<original_hash version='3.2.7'>9d39a4fd4cf0cf8973fc7eb9fb809b98</original_hash>
+		<original_hash version='3.2.6'>ae07ce81673c59105a4e047493742805</original_hash>
+		<original_hash version='3.2.3'>cef1e4232d6ce78115335d93b59da6d3</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/custompage/contact.php</filename>
+		<original_hash version='3.2.7'>b4f33396a87ea5f6672ff66bdfbb4f4d</original_hash>
+		<original_hash version='3.2.6'>b8fc7794352ac89b75383780fc409e14</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/layouts/checkout-confirmation.php</filename>
+		<original_hash version='3.2.7'>2638cbdc1195bdc777bfc2704f53d499</original_hash>
+		<original_hash version='3.2.6'>9b372939e9ad1d628e4c7a104f229de5</original_hash>
+		<original_hash version='3.2.3'>9b229c2000ec8e3d927639f8fcc33947</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/layouts/checkout.php</filename>
+		<original_hash version='3.2.7'>d53cab5de09973e5e9454be51a763212</original_hash>
+		<original_hash version='3.2.6'>3d9ce91cc618c2295b5c1202c0e2612c</original_hash>
+		<original_hash version='3.2.3'>4fdd90669acd6d05fc8c46d24bd90237</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/layouts/main.php</filename>
+		<original_hash version='3.2.7'>761f8ea933b67825903c41ec1014c60b</original_hash>
+		<original_hash version='3.2.6'>484079296c1ce269a736e5742ed6be46</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/myaccount/_accountinfo.php</filename>
+		<original_hash version='3.2.7'>708678905f9d703f5c5100cc4d58c9a1</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/myaccount/_addressform.php</filename>
+		<original_hash version='3.2.7'>9f1f84ed52fda501b4ad4a7bf3c8c423</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/myaccount/_addresslist.php</filename>
+		<original_hash version='3.2.7'>5757292c61aaa47316a4b0c0d4828cff</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/myaccount/_changepasswordmodal.php</filename>
+		<original_hash version='3.2.7'>50d60a3c3a83112eda0306f337fe9899</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/myaccount/_editprofilemodal.php</filename>
+		<original_hash version='3.2.7'>2eca5765d4a7b578411b0fc192770cb3</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/myaccount/_orderhistory.php</filename>
+		<original_hash version='3.2.7'>de046f5f672f8178cee67b76e176aa1a</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/myaccount/_sroinfo.php</filename>
+		<original_hash version='3.2.7'>01751021a8b5f6b87a5cd2999d4df25f</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/myaccount/_wishlistinfo.php</filename>
+		<original_hash version='3.2.7'>af4cd3af2d8e0d88ac68c3b236d45ff4</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/myaccount/edit.php</filename>
+		<original_hash version='3.2.7'>7a552e2646c6e3deb9e86ff4dc4bfef9</original_hash>
+		<original_hash version='3.2.6'>2eb554d391f92f1a33818f67bca4c081</original_hash>
+		<original_hash version='3.2.4'>b9e16ef14a5818df2998d3e45c736a40</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/myaccount/index.php</filename>
+		<original_hash version='3.2.7'>661d60ac269aa9fc6cb2039bd461b840</original_hash>
+		<original_hash version='3.2.6'>288f5fac18e6a122a4474d8cc2faa871</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/myaccount/password.php</filename>
+		<original_hash version='3.2.7'>6e00f966d5f2bac1c8090c442823e265</original_hash>
+		<original_hash version='3.2.6'>3b477cf5524c7e350aec55367014c90f</original_hash>
+		<original_hash version='3.2.4'>671d8904e754352f5c7fe2ef7934538d</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/search/brands.php</filename>
+		<original_hash version='3.2.7'>5a4434de16eb88dcc50c9bef065eb074</original_hash>
+		<original_hash version='3.2.6'>8ef0c51c240a8383fcd01bfb9d0ce293</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/search/index.php</filename>
+		<original_hash version='3.2.7'>194aae9406390efc7dc054dac271d466</original_hash>
+		<original_hash version='3.2.6'>7b7e835106375b3aa00ffb7ba37a7153</original_hash>
+		<original_hash version='3.2.4'>41fd62e4b57649b8a533e762bd6a8f29</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/site/_search.php</filename>
+		<original_hash version='3.2.7'>8b95aecf5123a8c384d414bb02584f9c</original_hash>
+		<original_hash version='3.2.6'>6049ec8e8c007812c23cc39101135161</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/site/error.php</filename>
+		<original_hash version='3.2.7'>e7e568e801e07b3dac978932f526fa85</original_hash>
+		<original_hash version='3.2.6'>4e5ee2dfe2b33202c24f58eb999c4515</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./core/protected/views-cities3/wishlist/_addtolist.php</filename>
+		<original_hash version='3.2.7'>79b9d10a1832a9e43a88366ea16588a9</original_hash>
+		<original_hash version='3.2.6'>e79133eecacb431b4a271fdf54612587</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
 		<filename>./core/protected/views-cities3/wishlist/create.php</filename>
+		<original_hash version='3.2.7'>69612d7722219a7dfccbf144d28e3fc7</original_hash>
 		<original_hash version='3.2.6'>103adaec2b4884b9c07f221438201488</original_hash>
 		<original_hash version='3.2.5'>cb79f5711c1c8b36b9dcc409b04741a5</original_hash>
 		<action>replace</action>
 		<status>critical</status>
 	</item>
 	<item>
+		<filename>./core/protected/views-cities3/wishlist/index.php</filename>
+		<original_hash version='3.2.7'>fa91e097e8ec610e888b1291043af783</original_hash>
+		<original_hash version='3.2.6'>f58dcd733f02cdf43de3b3eecf7fe42b</original_hash>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
 		<filename>./core/protected/views-cities3/wishlist/search.php</filename>
+		<original_hash version='3.2.7'>d8c893c8cc2eec890d462d9f5c0ab519</original_hash>
 		<original_hash version='3.2.6'>22584a3591ea0cea69aa3646838761a8</original_hash>
 		<original_hash version='3.2.5'>a26ecfd96f3db9f15f006418936c855d</original_hash>
 		<original_hash version='3.2.4'>cead7e2eb2c64d9c84ac1262efb688f2</original_hash>
 		<original_hash version='3.2.3'>bfc7190316b4500f05fcba1e7b5a3e72</original_hash>
 		<action>replace</action>
 		<status>critical</status>
+	</item>
+	<item>
+		<filename>./install.php</filename>
+		<original_hash version='3.2.7'>3d7e9107268c706ed62f28598ae0992f</original_hash>
+		<original_hash version='3.2.6'>9733d922470a1ad205f926129a9cb4e7</original_hash>
+		<original_hash version='3.1.12'>496bf6b8a522de48ec9d958d435357e9</original_hash>
+		<original_hash version='3.1.8'>ee2e054e944b095af735c77d6c2aac42</original_hash>
+		<original_hash version='3.1.6'>0baca17ae6da1cd4e341b1bee9dacc9b</original_hash>
+		<original_hash version='3.0.7'>1876d1c9887b6b98576a06a3f0cd1211</original_hash>
+		<original_hash version='3.0.5'>948d815e498dc69c92f0fa896c54d0a1</original_hash>
+		<original_hash version='3.0.4'>75ce4af1e1ea1c03645b1a2dbd88c40a</original_hash>
+		<original_hash version='3.0.3'>e21f577ee0550d904d2fa4a47994931d</original_hash>
+		<original_hash version='3.0.2'>ed8272c5037eb8297ee8d29407110f1b</original_hash>
+		<original_hash version='3.0.1'>891b98ad453a930447a1b0c0d4cdd2ce</original_hash>
+		<ignore>ignore</ignore>
+		<action>replace</action>
+		<status>critical</status>
+	</item>
+	<item>
+		<filename>./systemcheck.php</filename>
+		<original_hash version='3.2.7'>b6ec21282ec26512bdcb3f86c614fc3c</original_hash>
+		<original_hash version='3.2.6'>ed02e4b41af7cd837df4becea8d3cac5</original_hash>
+		<original_hash version='3.2.3'>92c1439f4931946985637630c4858146</original_hash>
+		<original_hash version='3.1.12'>ad8bda836055998f9dba2116fb66d1c6</original_hash>
+		<original_hash version='3.1.11'>be65adf9fed5c59fc782961cc578581d</original_hash>
+		<original_hash version='3.1.10'>db60c279d099764f7181286da09fc163</original_hash>
+		<action>replace</action>
+		<status>optional</status>
 	</item>
 	</files>

@@ -103,7 +103,6 @@ return CMap::mergeArray(
 //		'request' => array(
 //			'baseUrl' => '',
 //		),
-
 				'user' => array(
 					// enable cookie-based authentication
 					'allowAutoLogin' => true,
